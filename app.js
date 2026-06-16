@@ -159,9 +159,16 @@ function renderAnswer(container, text) {
 }
 
 /* ---------- navigation ---------- */
+function setActiveNav(name) {
+  $$('.nav-link').forEach(a => {
+    const on = a.dataset.nav === name;
+    a.classList.toggle('is-active', on);
+    if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  });
+}
 function showScreen(name) {
   $$('.screen').forEach(s => s.classList.toggle('is-active', s.dataset.screen === name));
-  $$('.nav-link').forEach(a => a.classList.toggle('is-active', a.dataset.nav === name));
+  setActiveNav(name);
   window.scrollTo(0, 0);
   if (name === 'home') renderHome();
   if (name === 'stats') renderStats();
@@ -201,6 +208,8 @@ function renderHome() {
     list.appendChild(card);
   });
   $('#home-due').textContent = totalDue ? `${totalDue} Karten heute fällig` : 'Heute nichts fällig';
+  const anyMarked = QUESTIONS.some(q => state.cards[q.id]?.bookmarked);
+  const mk = $('#action-marked'); if (mk) mk.hidden = !anyMarked;
 }
 
 function renderExamCountdown() {
@@ -229,12 +238,16 @@ function startSession(scope, mode) {
   let pool;
   if (mode === 'mix') pool = shuffle(all).slice(0, MIX_LIMIT).map(q => q.id);
   else if (mode === 'ahead') pool = all.slice().sort((a, b) => (state.cards[a.id].due) - (state.cards[b.id].due)).slice(0, AHEAD_LIMIT).map(q => q.id);
+  else if (mode === 'marked') {
+    pool = shuffle(all.filter(q => state.cards[q.id]?.bookmarked)).map(q => q.id);
+    if (!pool.length) { toast('Noch keine Karten gemerkt.'); return; }
+  }
   else { // due
     pool = shuffle(dueList(scope === 'all' ? null : scope)).map(q => q.id);
   }
   session = { queue: pool, idx: 0, revealed: false, scope, mode, reviewed: 0, known: 0 };
   showScreen('learn');
-  $$('.nav-link').forEach(a => a.classList.toggle('is-active', a.dataset.nav === 'learn'));
+  setActiveNav('learn');
   if (!pool.length) { renderLearnEmpty('due'); return; }
   renderCard();
 }
@@ -734,6 +747,7 @@ function handleAction(a) {
   switch (a) {
     case 'learn-all': startSession('all', 'due'); break;
     case 'mix': startSession('all', 'mix'); break;
+    case 'learn-marked': startSession('all', 'marked'); break;
     case 'learn-ahead': startSession(session?.scope || 'all', 'ahead'); break;
     case 'exam': showScreen('exam'); break;
     case 'exam-start': startExam(); break;
@@ -760,6 +774,7 @@ function boot() {
   saveState();
   bindEvents();
   renderHome();
+  setActiveNav('home');
   registerSW();
   if (!localStorage.getItem(ONBOARD_KEY)) showFirstVisit();
   handleUrlAction();

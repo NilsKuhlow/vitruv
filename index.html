@@ -56,6 +56,7 @@
         <button class="btn btn--primary" data-action="learn-all">Heute lernen</button>
         <button class="btn" data-action="mix">Zufallsmix</button>
         <button class="btn" data-action="exam">Prüfungsmodus</button>
+        <button class="btn" data-action="learn-marked" id="action-marked" hidden>Gemerkte üben</button>
       </div>
 
       <div class="section-head">
@@ -98,7 +99,7 @@
         <div class="flashcard-body">
           <p id="lc-sketch" class="sketch-flag" hidden>Skizze gefragt</p>
           <h2 id="lc-question" class="flashcard-question"></h2>
-          <div id="lc-answer" class="flashcard-answer" hidden></div>
+          <div id="lc-answer" class="flashcard-answer" aria-live="polite" aria-atomic="true" hidden></div>
           <p id="lc-source" class="flashcard-source mono" hidden></p>
         </div>
       </article>
@@ -156,7 +157,7 @@
           <div class="flashcard-body">
             <p id="ex-sketch" class="sketch-flag" hidden>Skizze gefragt</p>
             <h2 id="ex-question" class="flashcard-question"></h2>
-            <div id="ex-answer" class="flashcard-answer" hidden></div>
+            <div id="ex-answer" class="flashcard-answer" aria-live="polite" aria-atomic="true" hidden></div>
             <p id="ex-source" class="flashcard-source mono" hidden></p>
           </div>
         </article>

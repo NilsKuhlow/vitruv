@@ -1,5 +1,5 @@
 /* Vitruv service worker — offline app shell + stale-while-revalidate for data. */
-const CACHE = 'vitruv-v1';
+const CACHE = 'vitruv-v2';
 
 const APP_SHELL = [
   './',
