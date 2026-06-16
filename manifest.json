@@ -1,0 +1,24 @@
+{
+  "name": "Vitruv — Prüfungstrainer Architektur",
+  "short_name": "Vitruv",
+  "description": "Karteikarten zur Prüfungsvorbereitung im Architekturstudium: Baukonstruktion, Gebäudelehre, Städtebau, Baustofftechnik. Spaced Repetition nach dem Leitner-Prinzip.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Zufallsmix", "short_name": "Mix", "url": "./?action=mix" },
+    { "name": "Prüfungsmodus", "short_name": "Prüfung", "url": "./?action=exam" },
+    { "name": "Suche", "short_name": "Suche", "url": "./?action=browse" }
+  ]
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Vitruv — Prüfungstrainer Architektur</title>
+<meta name="description" content="Vitruv: Karteikarten-Lerntool zur Prüfungsvorbereitung im Architekturstudium. Baukonstruktion, Gebäudelehre, Städtebau, Baustofftechnik. Spaced Repetition nach dem Leitner-Prinzip." />
+<meta name="theme-color" content="#FFFFFF" />
+<meta name="color-scheme" content="light" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="icons/icon-180.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Vitruv" />
+<link rel="stylesheet" href="colors_and_type.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ UPDATE BANNER ============ -->
+<div id="update-banner" class="banner" hidden>
+  <span>Neue Version verfügbar.</span>
+  <button id="update-btn" class="btn btn--accent">Jetzt laden</button>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#" class="brand" data-nav="home" aria-label="Vitruv, zur Startseite">
+    <span class="brand-mark">Vitruv</span>
+  </a>
+  <nav class="nav-links" aria-label="Hauptnavigation">
+    <a href="#" class="nav-link" data-nav="home">Start</a>
+    <a href="#" class="nav-link" data-nav="learn">Lernen</a>
+    <a href="#" class="nav-link" data-nav="browse">Suche</a>
+    <a href="#" class="nav-link" data-nav="stats">Statistik</a>
+    <a href="#" class="nav-link" data-nav="more">Mehr</a>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- ============ HOME ============ -->
+  <section class="screen is-active" data-screen="home">
+    <div class="wrap">
+      <header class="home-hero">
+        <p class="label">Prüfungstrainer · Architektur · 2. Semester</p>
+        <h1 class="display">Vitruv</h1>
+        <p class="lede">Karteikarten für die Klausurphase. Frage lesen, Antwort denken,
+          aufdecken, ehrlich einschätzen. Was sitzt, kommt seltener; was wackelt, öfter.</p>
+      </header>
+
+      <div id="exam-countdown" class="exam-countdown" hidden></div>
+
+      <div class="home-actions">
+        <button class="btn btn--primary" data-action="learn-all">Heute lernen</button>
+        <button class="btn" data-action="mix">Zufallsmix</button>
+        <button class="btn" data-action="exam">Prüfungsmodus</button>
+      </div>
+
+      <div class="section-head">
+        <p class="label">Fächer</p>
+        <p id="home-due" class="small"></p>
+      </div>
+      <div id="subject-list" class="subject-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ LEARN ============ -->
+  <section class="screen" data-screen="learn">
+    <!-- empty / done state -->
+    <div id="learn-empty" class="wrap learn-empty" hidden>
+      <p class="label">Lernen</p>
+      <h2 id="learn-empty-title">Nichts fällig.</h2>
+      <p id="learn-empty-text" class="lede"></p>
+      <div class="home-actions">
+        <button class="btn btn--primary" data-action="learn-ahead">Trotzdem üben</button>
+        <button class="btn" data-nav="home">Zur Übersicht</button>
+      </div>
+    </div>
+
+    <!-- active card -->
+    <div id="learn-active" class="learn-active" hidden>
+      <div class="learn-bar">
+        <button class="btn--ghost learn-exit" data-nav="home" aria-label="Lernen beenden">Beenden</button>
+        <div class="learn-progress"><span id="lc-progress" class="learn-progress-fill"></span></div>
+        <span id="lc-counter" class="mono learn-counter">0 / 0</span>
+      </div>
+
+      <article class="flashcard">
+        <div class="flashcard-meta">
+          <span id="lc-category" class="label"></span>
+          <button id="bookmark-btn" class="mark-toggle" aria-pressed="false">
+            <span class="mark-glyph" aria-hidden="true">▫</span><span class="mark-text">Merken</span>
+          </button>
+        </div>
+
+        <div class="flashcard-body">
+          <p id="lc-sketch" class="sketch-flag" hidden>Skizze gefragt</p>
+          <h2 id="lc-question" class="flashcard-question"></h2>
+          <div id="lc-answer" class="flashcard-answer" hidden></div>
+          <p id="lc-source" class="flashcard-source mono" hidden></p>
+        </div>
+      </article>
+
+      <div class="learn-actions">
+        <button id="reveal-btn" class="btn btn--primary btn--block">Antwort zeigen</button>
+        <div id="grade-buttons" class="grade-buttons" hidden>
+          <button class="btn grade" data-grade="0">Nicht gewusst</button>
+          <button class="btn grade" data-grade="1">Teils</button>
+          <button class="btn btn--accent grade" data-grade="2">Gewusst</button>
+        </div>
+      </div>
+      <p class="learn-hint small">Leertaste: aufdecken · 1 / 2 / 3: einschätzen · M: merken</p>
+    </div>
+  </section>
+
+  <!-- ============ EXAM ============ -->
+  <section class="screen" data-screen="exam">
+    <div class="wrap">
+      <!-- setup -->
+      <div id="exam-setup" class="exam-setup">
+        <p class="label">Prüfungsmodus</p>
+        <h2>Klausur simulieren</h2>
+        <p class="lede">Eine feste Anzahl Karten am Stück, ohne Wiederholungsschlaufe.
+          Am Ende schätzt du dich ein und bekommst eine Note.</p>
+
+        <fieldset class="field">
+          <legend class="label">Fach</legend>
+          <div id="exam-subjects" class="chip-row"></div>
+        </fieldset>
+
+        <fieldset class="field">
+          <legend class="label">Anzahl Karten</legend>
+          <div class="chip-row" id="exam-counts">
+            <button class="chip" data-count="10">10</button>
+            <button class="chip is-on" data-count="20">20</button>
+            <button class="chip" data-count="30">30</button>
+          </div>
+        </fieldset>
+
+        <button class="btn btn--primary btn--block" data-action="exam-start">Prüfung starten</button>
+      </div>
+
+      <!-- run -->
+      <div id="exam-run" class="exam-run" hidden>
+        <div class="learn-bar">
+          <button class="btn--ghost learn-exit" data-action="exam-quit">Abbrechen</button>
+          <div class="learn-progress"><span id="ex-progress" class="learn-progress-fill"></span></div>
+          <span id="ex-counter" class="mono learn-counter">0 / 0</span>
+        </div>
+        <article class="flashcard">
+          <div class="flashcard-meta">
+            <span id="ex-category" class="label"></span>
+          </div>
+          <div class="flashcard-body">
+            <p id="ex-sketch" class="sketch-flag" hidden>Skizze gefragt</p>
+            <h2 id="ex-question" class="flashcard-question"></h2>
+            <div id="ex-answer" class="flashcard-answer" hidden></div>
+            <p id="ex-source" class="flashcard-source mono" hidden></p>
+          </div>
+        </article>
+        <div class="learn-actions">
+          <button id="ex-reveal-btn" class="btn btn--primary btn--block">Antwort zeigen</button>
+          <div id="ex-grade-buttons" class="grade-buttons" hidden>
+            <button class="btn grade" data-exgrade="0">Falsch</button>
+            <button class="btn grade" data-exgrade="1">Teils</button>
+            <button class="btn btn--accent grade" data-exgrade="2">Richtig</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- result -->
+      <div id="exam-result" class="exam-result" hidden>
+        <p class="label">Ergebnis</p>
+        <p id="ex-grade" class="exam-grade">1,0</p>
+        <p id="ex-grade-sub" class="lede"></p>
+        <div id="ex-breakdown" class="ex-breakdown"></div>
+        <div class="home-actions">
+          <button class="btn btn--primary" data-action="exam">Neue Prüfung</button>
+          <button class="btn" data-nav="home">Zur Übersicht</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BROWSE / SEARCH ============ -->
+  <section class="screen" data-screen="browse">
+    <div class="wrap">
+      <p class="label">Suche</p>
+      <input id="search-input" class="search-input" type="search" placeholder="Frage oder Begriff suchen …" autocomplete="off" />
+      <div id="filter-chips" class="chip-row filter-chips"></div>
+      <p id="browse-count" class="small"></p>
+      <div id="browse-results" class="browse-results"></div>
+    </div>
+
+    <!-- detail overlay -->
+    <div id="browse-detail" class="detail" hidden>
+      <div class="wrap">
+        <button class="btn--ghost" data-action="detail-close">Zurück zur Liste</button>
+        <article class="flashcard flashcard--static">
+          <div class="flashcard-meta">
+            <span id="bd-category" class="label"></span>
+            <button id="bd-bookmark" class="mark-toggle" aria-pressed="false">
+              <span class="mark-glyph" aria-hidden="true">▫</span><span class="mark-text">Merken</span>
+            </button>
+          </div>
+          <div class="flashcard-body">
+            <p id="bd-sketch" class="sketch-flag" hidden>Skizze gefragt</p>
+            <h2 id="bd-question" class="flashcard-question"></h2>
+            <div id="bd-answer" class="flashcard-answer"></div>
+            <p id="bd-source" class="flashcard-source mono" hidden></p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="screen" data-screen="stats">
+    <div class="wrap">
+      <p class="label">Statistik</p>
+      <div class="stat-grid">
+        <div class="stat"><span id="stat-streak" class="stat-num">0</span><span class="label">Tage in Folge</span></div>
+        <div class="stat"><span id="stat-due" class="stat-num">0</span><span class="label">Heute fällig</span></div>
+        <div class="stat"><span id="stat-known" class="stat-num">0</span><span class="label">Karten sitzen</span></div>
+        <div class="stat"><span id="stat-total" class="stat-num">0</span><span class="label">Karten gesamt</span></div>
+      </div>
+
+      <div class="section-head"><p class="label">Fortschritt je Fach</p></div>
+      <div id="subject-progress" class="subject-progress"></div>
+
+      <div class="section-head"><p class="label">Boxenverteilung</p></div>
+      <div id="box-dist" class="box-dist"></div>
+
+      <div class="section-head"><p class="label">Aktivität (30 Tage)</p></div>
+      <div id="heatmap" class="heatmap"></div>
+    </div>
+  </section>
+
+  <!-- ============ MORE / SETTINGS ============ -->
+  <section class="screen" data-screen="more">
+    <div class="wrap">
+      <p class="label">Mehr</p>
+      <h2>Einstellungen</h2>
+
+      <div class="settings-list">
+        <div class="setting">
+          <label class="label" for="exam-date-input">Prüfungsdatum</label>
+          <input id="exam-date-input" type="date" class="text-input" />
+        </div>
+
+        <div class="setting">
+          <p class="label">Fortschritt sichern</p>
+          <div class="home-actions">
+            <button class="btn" data-action="backup">Exportieren</button>
+            <label class="btn" for="restore-input">Einspielen</label>
+            <input id="restore-input" type="file" accept="application/json" hidden />
+          </div>
+        </div>
+
+        <div class="setting">
+          <p class="label">Zurücksetzen</p>
+          <button class="btn" data-action="reset">Allen Fortschritt löschen</button>
+        </div>
+      </div>
+
+      <div class="section-head"><p class="label">Über</p></div>
+      <div class="prose" id="about">
+        <p>Vitruv ist ein privates Lernwerkzeug zur Prüfungsvorbereitung im
+          Architekturstudium. Die Fragen stammen aus den Übungsfragenkatalogen der
+          Lehrveranstaltungen, die Musterantworten sind eigenständig formuliert und
+          ohne Gewähr. Maßgeblich sind Vorlesung, Skript und Norm.</p>
+        <p class="small">Daten bleiben auf diesem Gerät (localStorage). Kein Konto,
+          kein Tracking, keine Übertragung an Server.</p>
+        <p><a href="#" data-nav="legal">Impressum &amp; Datenschutz</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LEGAL ============ -->
+  <section class="screen" data-screen="legal">
+    <div class="wrap prose">
+      <button class="btn--ghost" data-nav="more">Zurück</button>
+      <h2>Impressum</h2>
+      <p>Angaben gemäß § 5 DDG<br />
+        [Name]<br />[Anschrift]<br />[E-Mail]</p>
+      <p class="small">Privates, nicht-kommerzielles Projekt zur eigenen
+        Prüfungsvorbereitung.</p>
+      <h2>Datenschutz</h2>
+      <p>Diese Anwendung speichert deinen Lernfortschritt ausschließlich lokal im
+        Browser (localStorage). Es werden keine personenbezogenen Daten erhoben,
+        verarbeitet oder an Dritte übermittelt. Es gibt kein Benutzerkonto und kein
+        Analyse-Tracking.</p>
+      <p class="small">Beim Aufruf über GitHub Pages gelten zusätzlich die
+        Datenschutzhinweise von GitHub, Inc. (Server-Logs, US-Drittland).</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FIRST VISIT ============ -->
+<div id="first-visit" class="modal" hidden>
+  <div class="modal-card">
+    <p class="brand-mark modal-brand">Vitruv</p>
+    <h2 id="fv-title">Erst lesen, dann lernen.</h2>
+    <div id="fv-body" class="prose"></div>
+    <div class="modal-actions">
+      <button id="fv-back" class="btn" hidden>Zurück</button>
+      <button id="fv-next" class="btn btn--primary">Weiter</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TOAST ============ -->
+<div id="toast" class="toast" hidden></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

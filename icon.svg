@@ -1,0 +1,5 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vitruv">
+  <rect width="512" height="512" fill="#0A0A0A"/>
+  <polyline points="154,150 256,360 358,150" fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linejoin="round" stroke-linecap="butt"/>
+  <rect x="78" y="372" width="48" height="48" fill="#FFED29"/>
+</svg>

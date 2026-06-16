@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-/Tool-Backups
+*_bak_*.*
+*.tmp
+*.bak
+
+# Tooling
+node_modules/
+.vscode/

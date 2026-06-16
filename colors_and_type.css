@@ -1,0 +1,358 @@
+/* ============================================================
+   Nils Kuhlow — Quiet Precision
+   colors_and_type.css
+   Drop this file into any HTML page that consumes the system.
+   ============================================================ */
+
+/* ──────────────────────────────────────────────────────────
+   Brand typeface — Helvetica Neue LT Std
+   Local fonts in /fonts. 8 weights × 2 styles registered.
+   ────────────────────────────────────────────────────────── */
+/* No bundled webfont. Helvetica Neue is the system font on Apple devices and
+   resolves natively via the --font-* stacks below; elsewhere it falls back to
+   Helvetica / Arial / system sans. The commercial Helvetica Neue LT Std files
+   are intentionally NOT shipped in this public repo (font licence). */
+
+/* Mono — system monospace stack only (no external CDN, offline-friendly).
+   JetBrains Mono can be self-hosted into /fonts later if desired. */
+
+:root {
+  /* ────────────────────────────────────────────────────────
+     COLORS — base palette
+     Pure black & white foundation, single bright-yellow accent.
+     No beige, no warm tones, no earth palette.
+     ──────────────────────────────────────────────────────── */
+
+  /* Surface — neutral whites & near-blacks */
+  --paper-0: #FFFFFF;   /* page background */
+  --paper-1: #F5F5F5;   /* card / hover surface */
+  --paper-2: #EBEBEB;   /* hover surface 2 */
+  --paper-3: #D9D9D9;   /* divider tone */
+
+  /* Ink — neutral greys to true black */
+  --ink-1: #0A0A0A;     /* primary text — near-black */
+  --ink-2: #404040;     /* secondary text */
+  --ink-3: #737373;     /* tertiary / metadata */
+  --ink-4: #B3B3B3;     /* softest grey — used for muted text only, never as a border */
+
+  /* Accent — bright yellow */
+  --yellow-50:  #FFFBE0;
+  --yellow-200: #FFF59A;
+  --yellow-500: #FFED29;  /* primary accent — bright */
+  --yellow-700: #D9C200;  /* hover/press */
+
+  /* Functional */
+  --positive:   #1F8A3F;
+  --negative:   #C63A1A;
+
+  /* ────────────────────────────────────────────────────────
+     SEMANTIC COLOR ROLES
+     ──────────────────────────────────────────────────────── */
+  --bg:           var(--paper-0);
+  --bg-elevated:  var(--paper-1);
+  --bg-hover:     var(--paper-2);
+  --fg:           var(--ink-1);
+  --fg-muted:     var(--ink-2);
+  --fg-subtle:    var(--ink-3);
+  /* Hairlines are removed from the system. The tokens resolve to transparent
+     so any legacy `border: 1px solid var(--hairline)` rule renders as nothing.
+     Use paper-tone shifts or whitespace for separation instead. */
+  --hairline:        transparent;
+  --hairline-strong: transparent;
+  --accent:       var(--yellow-500);
+  --accent-fg:    var(--ink-1); /* text on yellow stays graphite */
+  --link:         var(--ink-1);
+  --link-hover:   var(--ink-1);
+
+  /* ────────────────────────────────────────────────────────
+     TYPE — families
+     Brand typeface is Helvetica Neue LT Std for everything.
+     The "serif" role is kept as a CSS variable for historical
+     reasons but now resolves to Helvetica — the studio uses
+     one family across display, body, and labels, with weight
+     doing the differentiation.
+     ──────────────────────────────────────────────────────── */
+  --font-sans:    "Helvetica Neue LT Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Helvetica Neue LT Std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif:   var(--font-display); /* alias — kept for backwards compat in preview cards */
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* TYPE — scale (1.250 minor third, slightly slowed at the top) */
+  --t-12: 0.75rem;     /* 12 — micro labels */
+  --t-13: 0.8125rem;   /* 13 — metadata */
+  --t-14: 0.875rem;    /* 14 — small body */
+  --t-16: 1rem;        /* 16 — body */
+  --t-18: 1.125rem;    /* 18 — large body / lede */
+  --t-22: 1.375rem;    /* 22 — h4 */
+  --t-28: 1.75rem;     /* 28 — h3 */
+  --t-36: 2.25rem;     /* 36 — h2 */
+  --t-52: 3.25rem;     /* 52 — h1 */
+  --t-80: 5rem;        /* 80 — display */
+  --t-128: 8rem;       /* 128 — hero display */
+
+  /* TYPE — weights */
+  --fw-light:    300;
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semi:     600;
+  --fw-bold:     700;
+
+  /* TYPE — leading + tracking */
+  --lh-tight:    1.06;
+  --lh-snug:     1.18;
+  --lh-body:     1.55;
+  --lh-relaxed:  1.7;
+  --tr-label:    0.18em;   /* the signature ALL CAPS label */
+  --tr-display:  -0.02em;
+  --tr-tight:    -0.01em;
+
+  /* ────────────────────────────────────────────────────────
+     SPACING — 8-pt base, named for intent
+     ──────────────────────────────────────────────────────── */
+  --s-1:  4px;
+  --s-2:  8px;
+  --s-3:  12px;
+  --s-4:  16px;
+  --s-5:  24px;
+  --s-6:  32px;
+  --s-7:  40px;
+  --s-8:  56px;
+  --s-9:  80px;
+  --s-10: 120px;
+  --s-11: 160px;
+
+  /* RADII — almost always 0 */
+  --r-0:  0px;
+  --r-1:  2px;
+  --r-2:  4px;
+  --r-pill: 999px;
+
+  /* BORDERS */
+  --bw: 1px;
+
+  /* SHADOWS — removed from the system. Elevation comes from surface tone and whitespace only. */
+  --shadow-floating: none;
+  --shadow-overlay:  none;
+
+  /* MOTION */
+  --easing: cubic-bezier(0.2, 0, 0, 1);
+  --dur-fast: 160ms;
+  --dur-base: 280ms;
+  --dur-slow: 480ms;
+
+  /* LAYOUT */
+  --container: 1280px;
+  --reading:   640px;
+  --rail:      200px;
+  --nav-h:     64px;
+}
+
+/* ============================================================
+   Base — element semantics
+   ============================================================ */
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+::selection {
+  background: var(--yellow-200);
+  color: var(--ink-1);
+}
+
+/* Headings — serif, generous, never crowded */
+h1, .h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, var(--t-80));
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tr-display);
+  margin: 0 0 var(--s-5);
+  text-wrap: balance;
+}
+
+h2, .h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3.6vw, var(--t-36));
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tr-tight);
+  margin: 0 0 var(--s-4);
+  text-wrap: balance;
+}
+
+h3, .h3 {
+  font-family: var(--font-serif);
+  font-size: var(--t-28);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-snug);
+  margin: 0 0 var(--s-3);
+}
+
+h4, .h4 {
+  font-family: var(--font-sans);
+  font-size: var(--t-22);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tr-tight);
+  margin: 0 0 var(--s-3);
+}
+
+/* Display — the title-page hero */
+.display {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 9vw, var(--t-128));
+  font-weight: var(--fw-light);
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+/* Lede — the first paragraph of an article */
+.lede {
+  font-family: var(--font-sans);
+  font-size: var(--t-18);
+  line-height: var(--lh-relaxed);
+  color: var(--fg);
+  max-width: 36em;
+}
+
+/* Body */
+p {
+  font-size: var(--t-16);
+  line-height: var(--lh-body);
+  margin: 0 0 var(--s-4);
+  text-wrap: pretty;
+}
+
+/* Small / metadata */
+.small, small {
+  font-size: var(--t-13);
+  color: var(--fg-muted);
+  line-height: 1.45;
+}
+
+/* THE signature label — ALL CAPS metadata */
+.label, .eyebrow {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: var(--t-12);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--tr-label);
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  line-height: 1.4;
+}
+
+/* Pull quote — set inside a paper-1 slab; the slab does the separating work
+   that a left rule used to do. */
+.quote, blockquote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: var(--fw-light);
+  font-style: italic;
+  line-height: 1.3;
+  margin: var(--s-7) 0;
+  padding: var(--s-5) var(--s-6);
+  background: var(--paper-1);
+  text-wrap: balance;
+}
+
+/* Mono — metadata accent ONLY */
+code, .mono, kbd {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  font-feature-settings: "liga" 0;
+}
+
+/* Links — underline-on-hover, no colour change */
+a {
+  color: var(--link);
+  text-decoration: none;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color var(--dur-fast) var(--easing);
+}
+a:hover { text-decoration: underline; }
+a:focus-visible {
+  outline: 2px solid var(--ink-1);
+  outline-offset: 4px;
+}
+
+/* HR — replaced by a wide band of whitespace. No rule, no line. */
+hr {
+  border: 0;
+  height: 0;
+  margin: var(--s-9) 0;
+}
+
+img, svg, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Buttons — square, fully filled. No border. The button itself is the surface.
+   Default = paper-1 fill; primary = ink-1 fill; accent = yellow fill. */
+button, .btn {
+  font-family: var(--font-sans);
+  font-size: var(--t-14);
+  font-weight: var(--fw-medium);
+  letter-spacing: 0.02em;
+  padding: 12px 20px;
+  border: 0;
+  background: var(--paper-1);
+  color: var(--ink-1);
+  border-radius: var(--r-0);
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--easing),
+              transform 80ms var(--easing);
+}
+button:hover, .btn:hover { background: var(--paper-2); }
+button:active, .btn:active { transform: scale(0.99); }
+button:focus-visible, .btn:focus-visible {
+  outline: 2px solid var(--ink-1);
+  outline-offset: 4px;
+}
+
+.btn--primary {
+  background: var(--ink-1);
+  color: var(--paper-0);
+}
+.btn--primary:hover {
+  background: var(--ink-2);
+}
+
+.btn--accent {
+  background: var(--accent);
+  color: var(--accent-fg);
+}
+.btn--accent:hover {
+  background: var(--yellow-700);
+}
+
+/* Ghost button — text only, underline on hover. Useful where a filled
+   surface would compete with surrounding content. */
+.btn--ghost {
+  background: transparent;
+  color: var(--ink-1);
+  padding: 12px 0;
+}
+.btn--ghost:hover {
+  background: transparent;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
