@@ -26,6 +26,636 @@ window.PATHS = [
 
 window.QUESTIONS = [
  {
+  "id": "bs001",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Was bedeutet Nachhaltigkeit bzw. nachhaltige Entwicklung? Erläutern Sie die drei „Dimensionen\" der Nachhaltigkeit.",
+  "answer": "Nachhaltige Entwicklung bedeutet, die Bedürfnisse der heutigen Generation zu decken, ohne die Möglichkeiten künftiger Generationen zu gefährden, ihre eigenen Bedürfnisse zu decken (Brundtland-Definition 1987). Leitgedanke ist die dauerhafte Tragfähigkeit, also nur so viel zu verbrauchen, wie nachwachsen oder regeneriert werden kann.\nDie drei Dimensionen (Säulen) der Nachhaltigkeit:\n- Ökologisch: Schonung natürlicher Ressourcen, Schutz von Klima, Boden, Wasser und Biodiversität, geringe Emissionen.\n- Ökonomisch: dauerhaft wirtschaftliches, kosteneffizientes Handeln über den gesamten Lebenszyklus, Werterhalt statt kurzfristigem Gewinn.\n- Sozial bzw. soziokulturell: Gesundheit, Behaglichkeit, Gerechtigkeit, Baukultur und gesellschaftliche Teilhabe.\nAlle drei Dimensionen sind gleichrangig und müssen ausgewogen berücksichtigt werden.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 1",
+  "sketch": false
+ },
+ {
+  "id": "bs002",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Benennen und erläutern Sie die drei Nachhaltigkeitsstrategien.",
+  "answer": "Die drei Nachhaltigkeitsstrategien beschreiben, wie sich der Ressourcenverbrauch dauerhaft senken lässt:\n- Effizienz: mehr Nutzen aus weniger Ressourcen, also Verbrauch je Leistungseinheit senken (z. B. bessere Dämmung, sparsame Technik, optimierte Konstruktion).\n- Konsistenz: naturverträgliche Stoffkreisläufe, erneuerbare und kreislauffähige Materialien statt endlicher Rohstoffe (z. B. nachwachsende Baustoffe, recycelbare Konstruktionen, Cradle to Cradle).\n- Suffizienz: Senkung des Verbrauchs durch Maß und Genügsamkeit, also weniger Bedarf erzeugen (z. B. kleinere Flächen, längere Nutzungsdauer, Verzicht auf Überdimensionierung).\nDie Strategien ergänzen sich, weil reine Effizienzgewinne durch Mehrverbrauch (Rebound-Effekt) aufgezehrt werden können.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 2",
+  "sketch": false
+ },
+ {
+  "id": "bs003",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Was beschreibt der Kohlenstoffzyklus?",
+  "answer": "Der Kohlenstoffzyklus beschreibt den natürlichen Kreislauf des Kohlenstoffs zwischen Atmosphäre, Pflanzen, Böden, Gewässern und Lebewesen. Pflanzen entziehen der Luft über die Photosynthese CO2 und binden den Kohlenstoff in Biomasse, beim Abbau, bei Verrottung oder Verbrennung wird er als CO2 wieder freigesetzt.\nFür das Bauwesen ist entscheidend, dass nachwachsende Baustoffe wie Holz den gebundenen Kohlenstoff über die Nutzungsdauer im Bauwerk speichern und so der Atmosphäre vorübergehend entziehen (CO2-Speicher).\nProblematisch ist die Freisetzung von Kohlenstoff aus langfristigen Lagern, etwa durch Verbrennung fossiler Energieträger oder die Entsäuerung von Kalkstein bei der Zementherstellung, weil dadurch der Kreislauf gestört und die CO2-Konzentration der Atmosphäre erhöht wird.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 3",
+  "sketch": false
+ },
+ {
+  "id": "bs004",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Erläutern Sie den Begriff des Primärenergieinhalts.",
+  "answer": "Der Primärenergieinhalt (PEI), auch graue Energie genannt, ist die gesamte Energiemenge, die zur Herstellung eines Baustoffs oder Bauteils aufgewendet wird, gerechnet bis zur Primärenergie (z. B. Rohöl, Kohle, Wasserkraft).\nEr umfasst den Aufwand für Rohstoffgewinnung, Transport, Verarbeitung und Herstellung, oft auch Nutzung, Instandhaltung und Entsorgung bzw. Recycling.\nMan unterscheidet den nicht erneuerbaren Anteil (PEI ne, fossil) und den erneuerbaren Anteil (PEI e). Angegeben wird der PEI meist in MJ oder kWh je kg oder je m³.\nDer PEI ist eine zentrale Kennzahl der Ökobilanz, weil er den Energie- und damit Umweltaufwand eines Materials unabhängig vom Betrieb des Gebäudes sichtbar macht.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 4",
+  "sketch": false
+ },
+ {
+  "id": "bs005",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Was versteht man grundsätzlich unter Ökobilanzierung?",
+  "answer": "Die Ökobilanzierung (Life Cycle Assessment, LCA) ist eine Methode, mit der die Umweltwirkungen eines Produkts oder Gebäudes über den gesamten Lebenszyklus systematisch erfasst und bewertet werden, von der Rohstoffgewinnung über Herstellung, Nutzung und Instandhaltung bis zu Rückbau und Entsorgung (von der Wiege bis zur Bahre).\nBewertet werden Stoff- und Energieströme über Wirkungsindikatoren wie Treibhauspotenzial (GWP), Primärenergieinhalt, Versauerung oder Überdüngung.\nDie Methodik ist normiert: DIN EN 15804 regelt die Umweltproduktdeklaration (EPD) für Bauprodukte, DIN EN 15978 die Ökobilanz auf Gebäudeebene. Der Lebenszyklus gliedert sich in die Module A (Herstellung und Errichtung), B (Nutzung), C (Entsorgung) und D (Vorteile außerhalb des Systems, z. B. Recyclingpotenzial).",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 5",
+  "sketch": false
+ },
+ {
+  "id": "bs006",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Erläutern Sie die wesentlichsten Grundprinzipien für eine nachhaltige Gebäudeplanung.",
+  "answer": "Wesentliche Grundprinzipien einer nachhaltigen Gebäudeplanung:\n- Kompakte Baukörper mit günstigem A/V-Verhältnis, um Wärmeverluste gering zu halten.\n- Standort- und klimagerechter Entwurf: Orientierung, Verschattung, passive Solarnutzung, Tageslicht.\n- Sparsamer Ressourcen- und Flächenverbrauch, möglichst Nutzung von Bestand und Nachverdichtung.\n- Energieeffiziente Hülle und Technik, Deckung des Restbedarfs aus erneuerbaren Quellen.\n- Materialwahl nach geringer grauer Energie, Schadstofffreiheit und Kreislauffähigkeit (nachwachsende, recycelte, trennbare Baustoffe).\n- Dauerhaftigkeit, Wartungsfreundlichkeit und Flexibilität für lange Nutzungs- und Umnutzungsdauer.\nLeitgedanke ist die Betrachtung des gesamten Lebenszyklus über alle drei Nachhaltigkeitsdimensionen.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 6",
+  "sketch": false
+ },
+ {
+  "id": "bs007",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Erläutern Sie die Abhängigkeiten von Gebäudevolumen und Wärmehaushalt eines Gebäudes (A/V-Verhältnis).",
+  "answer": "Das A/V-Verhältnis setzt die wärmeübertragende Hüllfläche A (in m²) ins Verhältnis zum beheizten Gebäudevolumen V (in m³), Einheit 1/m. Es ist ein Maß für die Kompaktheit eines Baukörpers.\nWärmeverluste entstehen über die Hüllfläche, der Nutzen (beheizter Raum) bemisst sich am Volumen. Ein kleines A/V-Verhältnis bedeutet wenig Hülle je Volumen, also kompakte Form und geringe Transmissionsverluste. Ein großes A/V-Verhältnis bedeutet viel Außenfläche je Volumen und damit höhere Verluste.\nGeometrisch gilt: große, kompakte Baukörper sind günstiger als kleine oder stark gegliederte. Die Kugel hätte das beste Verhältnis, im Hochbau ist der kompakte Quader mit wenig Vor- und Rücksprüngen anzustreben. Deshalb sind freistehende Einfamilienhäuser energetisch ungünstiger als kompakte Mehrfamilienhäuser.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 7",
+  "sketch": false
+ },
+ {
+  "id": "bs008",
+  "path": "baustofftechnik",
+  "category": "Nachhaltigkeit",
+  "question": "Welche Rolle spielt der Einsatz der Baustoffe für den Gesamtenergieverbrauch eines Gebäudes (graue Energie)?",
+  "answer": "Graue Energie ist die in Baustoffen gebundene Energie aus Herstellung, Transport, Instandhaltung und Entsorgung. Sie fällt vor dem Betrieb an und ist im fertigen Gebäude nicht sichtbar.\nFrüher dominierte der Betriebsenergiebedarf (Heizen, Warmwasser, Strom) den Gesamtenergieverbrauch. Mit hocheffizienten und Passivhaus-Standards sinkt dieser Anteil stark, sodass die graue Energie der Baustoffe einen immer größeren, teils überwiegenden Anteil am Lebenszyklus ausmacht.\nDie Materialwahl wird damit entscheidend: Baustoffe mit niedrigem Primärenergieinhalt wie Holz, Lehm oder Stroh sind günstiger als energieintensive wie Aluminium, Stahl oder Zement. Über den ganzen Lebenszyklus betrachtet kann ein Gebäude nur dann nachhaltig sein, wenn neben dem Betrieb auch die graue Energie minimiert wird.",
+  "source": "Baustofftechnik · Nachhaltigkeit · Frage 8",
+  "sketch": false
+ },
+ {
+  "id": "bs009",
+  "path": "baustofftechnik",
+  "category": "Naturbaustoffe",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen der nachwachsenden Rohstoffe im Bauwesen.",
+  "answer": "Stärken:\n- Nachwachsend und regenerierbar, schonen endliche Ressourcen.\n- Geringer Primärenergieinhalt und CO2-Speicherwirkung (Kohlenstoffsenke).\n- Gute bauphysikalische Eigenschaften: hohes Wärmedämmvermögen, Feuchtepufferung, behagliches Raumklima.\n- Meist gesundheitlich unbedenklich, gut recycelbar oder kompostierbar.\nSchwächen:\n- Empfindlich gegen Feuchte, Fäulnis, Pilze und Schädlinge, daher konstruktiver Schutz nötig.\n- Brennbarkeit (organische Stoffe), erfordert Brandschutznachweise.\n- Schwankende Qualität durch natürlichen Ursprung, oft geringere Festigkeit als mineralische oder metallische Stoffe.\n- Begrenzte Verfügbarkeit bei großem Bedarf, teils höhere Kosten und besonderes Verarbeitungs-Know-how erforderlich.",
+  "source": "Baustofftechnik · Naturbaustoffe · Frage 9",
+  "sketch": false
+ },
+ {
+  "id": "bs010",
+  "path": "baustofftechnik",
+  "category": "Naturbaustoffe",
+  "question": "Benennen Sie beispielhaft Einsatzgebiete von nachwachsenden Rohstoffen im Bauwesen.",
+  "answer": "Einsatzgebiete nachwachsender Rohstoffe:\n- Tragwerk und Konstruktion: Holz als Balken, Stützen, Brettschichtholz, Brettsperrholz (CLT).\n- Wärmedämmung: Holzfaser, Zellulose (Altpapier), Hanf, Flachs, Schafwolle, Stroh, Kork.\n- Wand- und Ausfachungssysteme: Strohballenbau, Holzrahmen- und Holzständerbau, Lehm-Stroh-Gemische.\n- Plattenwerkstoffe und Beplankung: OSB, Sperrholz, Holzfaser- und Holzspanplatten.\n- Ausbau und Oberflächen: Holzböden, Parkett, Korkbeläge, Linoleum (Leinöl), Holz- und Bambusverkleidungen.\n- Dach und Fassade: Holzschindeln, Reet (Schilfrohr) als Dachdeckung.\n- Hilfs- und Anstrichstoffe: Naturöle, Naturharze, Pflanzenfarben.",
+  "source": "Baustofftechnik · Naturbaustoffe · Frage 10",
+  "sketch": false
+ },
+ {
+  "id": "bs011",
+  "path": "baustofftechnik",
+  "category": "Naturbaustoffe",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen des Baustoffes Stroh.",
+  "answer": "Stroh ist ein landwirtschaftliches Nebenprodukt, das vor allem als gepresster Ballen zur Dämmung und Ausfachung im Holzbau eingesetzt wird.\nStärken:\n- Sehr geringer Primärenergieinhalt, regional und preiswert verfügbar, CO2-Speicher.\n- Gutes Wärmedämmvermögen bei ausreichender Schichtdicke (Ballen).\n- Feuchteregulierend, recycelbar bzw. kompostierbar.\nSchwächen:\n- Sehr feuchteempfindlich, Fäulnis- und Schimmelgefahr, daher dauerhaft trockener Einbau und Schutz vor Nässe zwingend.\n- Brennbar im losen Zustand, jedoch verputzt brandhemmend, weil dichte Ballen schlecht durchbrennen.\n- Schädlings- und Nagerbefall möglich.\n- Große Schichtdicken nötig, schwankende Qualität, begrenzte Tragfähigkeit (meist nicht tragend, sondern dämmend).",
+  "source": "Baustofftechnik · Naturbaustoffe · Frage 11",
+  "sketch": false
+ },
+ {
+  "id": "bs012",
+  "path": "baustofftechnik",
+  "category": "Naturbaustoffe",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen des Baustoffes Lehm.",
+  "answer": "Lehm ist ein mineralischer Naturbaustoff aus Ton, Schluff und Sand, eingesetzt als Stampflehm, Lehmstein, Lehmputz oder Ausfachung.\nStärken:\n- Sehr geringer Primärenergieinhalt, da nur getrocknet, nicht gebrannt, fast überall verfügbar.\n- Hervorragende Feuchtepufferung, reguliert die Raumluftfeuchte und sorgt für gesundes Raumklima.\n- Hohe Wärmespeicherfähigkeit (Masse), nicht brennbar, schadstofffrei.\n- Vollständig wiederverwendbar, da nur durch Trocknung verfestigt (reversibel).\nSchwächen:\n- Nicht wasserfest, quillt und erweicht bei Nässe, daher konstruktiver Schutz (Sockel, Dachüberstand) nötig.\n- Geringe Zug- und Biegefestigkeit, vor allem für Druckbeanspruchung geeignet.\n- Schwindrisse beim Trocknen, lange Trocknungszeiten, hohes Eigengewicht und arbeitsintensive Verarbeitung.",
+  "source": "Baustofftechnik · Naturbaustoffe · Frage 12",
+  "sketch": false
+ },
+ {
+  "id": "bs013",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen des Baustoffes Holz.",
+  "answer": "Stärken:\n- Nachwachsend, geringer Primärenergieinhalt, CO2-Speicher.\n- Hohe Festigkeit bei geringem Eigengewicht (gutes Verhältnis von Tragfähigkeit zu Masse), trägt Zug und Druck.\n- Geringe Wärmeleitfähigkeit, dämmt selbst mit.\n- Gut und schnell zu bearbeiten, vorfertigbar, trockene Bauweise, recycelbar.\n- Berechenbares Brandverhalten durch gleichmäßigen Abbrand.\nSchwächen:\n- Feuchteempfindlich, quillt und schwindet, Gefahr von Fäulnis, Pilzen und Insektenbefall, daher konstruktiver Holzschutz nötig.\n- Anisotrop (Eigenschaften richtungsabhängig zur Faser), inhomogen durch Äste und Risse.\n- Brennbar, erfordert Brandschutznachweise.\n- Begrenzte Bauteilabmessungen aus Vollholz, Schwankungen durch natürlichen Ursprung.",
+  "source": "Baustofftechnik · Holz · Frage 13",
+  "sketch": false
+ },
+ {
+  "id": "bs014",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Bewerten Sie den Baustoff Holz vor dem Hintergrund der Nachhaltigkeit.",
+  "answer": "Holz ist aus Nachhaltigkeitssicht einer der günstigsten Baustoffe, sofern es aus nachhaltiger Forstwirtschaft stammt (z. B. FSC, PEFC).\nÖkologisch: nachwachsend, sehr niedriger Primärenergieinhalt, bindet Kohlenstoff über die gesamte Nutzungsdauer (CO2-Senke), erfüllt die Konsistenzstrategie naturverträglicher Kreisläufe. Es ist recycel- bzw. energetisch verwertbar.\nÖkonomisch: leicht, schnell und vorgefertigt zu bauen, geringe Transportlasten, lange Nutzungsdauer bei richtigem Schutz.\nSozial: warme, behagliche Oberflächen, gesundes Raumklima, hohe Akzeptanz und Baukultur.\nVoraussetzung ist, dass nur so viel geerntet wird, wie nachwächst, kurze Transportwege bestehen und das Holz dauerhaft geschützt eingebaut wird. Bei Verbrennung am Lebensende wird der gespeicherte Kohlenstoff wieder frei, weshalb lange Nutzung und Kaskadennutzung sinnvoll sind.",
+  "source": "Baustofftechnik · Holz · Frage 14",
+  "sketch": false
+ },
+ {
+  "id": "bs015",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Benennen Sie die wesentlichen Unterschiede von Holz und Holzwerkstoffen.",
+  "answer": "Holz (Vollholz) ist der natürlich gewachsene Werkstoff. Es ist anisotrop, also richtungsabhängig zur Faser, inhomogen durch Äste, Risse und Wuchsfehler, in den Abmessungen durch den Baumquerschnitt begrenzt und quillt bzw. schwindet stark.\nHolzwerkstoffe entstehen durch Zerlegen des Holzes (Furniere, Späne, Fasern) und erneutes Verleimen oder Verpressen. Dadurch werden natürliche Schwächen ausgeglichen:\n- Gleichmäßigere, homogenere Eigenschaften und geringeres Quell- und Schwindverhalten.\n- Große Abmessungen unabhängig vom Baumquerschnitt (Platten, lange Träger).\n- Gezielt einstellbare Festigkeit und Formstabilität (z. B. kreuzweise verleimte Lagen).\nNachteile sind der zusätzliche Energie- und Klebstoffeinsatz (Bindemittel, mögliche Emissionen) und die erschwerte Trennung im Recycling. Beispiele für Holzwerkstoffe: Sperrholz, OSB, Spanplatte, Faserplatte (MDF, HDF), Brettsperrholz (CLT), Furnierschichtholz (LVL).",
+  "source": "Baustofftechnik · Holz · Frage 15",
+  "sketch": false
+ },
+ {
+  "id": "bs016",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Welche Rolle spielt Holz im Zusammenhang des Kohlenstoffzyklus?",
+  "answer": "Bäume entziehen der Atmosphäre beim Wachstum über die Photosynthese CO2 und binden den Kohlenstoff in der Holzmasse. Etwa die Hälfte des Trockengewichts von Holz besteht aus Kohlenstoff.\nWird das Holz verbaut, bleibt dieser Kohlenstoff über die gesamte Nutzungsdauer im Bauwerk gespeichert. Das Gebäude wirkt damit als Kohlenstoffspeicher (Senke) und entlastet die Atmosphäre vorübergehend.\nAm Lebensende wird der Kohlenstoff durch Verrottung oder Verbrennung wieder als CO2 frei, jedoch nur die Menge, die zuvor gebunden wurde, der Kreislauf ist also geschlossen (klimaneutral, sofern nachwächst).\nKlimavorteil entsteht zusätzlich, wenn Holz energieintensive Baustoffe wie Stahl oder Beton ersetzt (Substitutionseffekt). Lange Nutzungsdauer und Kaskadennutzung halten den Kohlenstoff möglichst lange aus der Atmosphäre fern.",
+  "source": "Baustofftechnik · Holz · Frage 16",
+  "sketch": false
+ },
+ {
+  "id": "bs017",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Welche Problemstellungen müssen Sie im Hinblick auf die Materialanwendung im Holzbau berücksichtigen?",
+  "answer": "Wesentliche Problemstellungen im Holzbau:\n- Feuchteschutz: Holz quillt und schwindet, bei dauerhafter Feuchte drohen Fäulnis und Pilzbefall. Konstruktiver Holzschutz hat Vorrang, also Abstand zum Boden, Dachüberstände, Hinterlüftung und das Vermeiden von Tauwasser.\n- Brandschutz: Holz ist brennbar, nötig sind Nachweise über Abbrandrate und Querschnitt, Kapselung oder Bekleidung je nach Gebäudeklasse.\n- Schallschutz: leichte Bauweise überträgt Luft- und Trittschall, daher Masse, mehrschalige Aufbauten und Entkopplung einplanen.\n- Holzschutz gegen Insekten und Pilze, konstruktiv vor chemisch.\n- Anisotropie und Schwinden: Verbindungen und Anschlüsse so ausbilden, dass Quell- und Schwindbewegungen aufgenommen werden.\n- Verbindungstechnik und Detailausbildung, Luftdichtheit und Maßhaltigkeit, sowie Schutz während der Bauphase vor Witterung.",
+  "source": "Baustofftechnik · Holz · Frage 17",
+  "sketch": false
+ },
+ {
+  "id": "bs018",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Beschreiben Sie den Unterschied von Konstruktionsvollholz (KVH) und Brettschichtholz (BSH).",
+  "answer": "Konstruktionsvollholz (KVH) ist technisch getrocknetes, gehobeltes Vollholz aus einem Stück, das in der Länge keilgezinkt gestoßen wird. Es besteht also aus einem durchgehenden Querschnitt, ist auf definierte Holzfeuchte (etwa 15 Prozent) getrocknet, sortiert und maßhaltig. Einsatz für gerade Bauteile mittlerer Spannweite wie Sparren, Pfetten, Ständer.\nBrettschichtholz (BSH, Leimholz) entsteht durch flächiges Verleimen mehrerer faserparallel angeordneter Brettlamellen. Dadurch ergibt sich:\n- Sehr große, frei wählbare Querschnitte und Längen, große Spannweiten.\n- Hohe Formstabilität, geringes Quellen und Schwinden, höhere und gleichmäßigere Festigkeit, da Äste und Fehler verteilt sind.\n- Möglichkeit gekrümmter Bauteile (gebogene Träger, Bögen).\nKurz: KVH ist ein durchgehender Vollholzquerschnitt für Standardbauteile, BSH ist verleimt aus Lamellen für hohe Lasten, große Spannweiten und Sonderformen.",
+  "source": "Baustofftechnik · Holz · Frage 18",
+  "sketch": false
+ },
+ {
+  "id": "bs019",
+  "path": "baustofftechnik",
+  "category": "Holz",
+  "question": "Welche Konstruktionsarten aus Holz kennen Sie? Beschreiben Sie die Prinzipien.",
+  "answer": "Wesentliche Holzbauarten und ihre Prinzipien:\n- Blockbau: waagerecht übereinander geschichtete Vollholzbohlen oder Balken bilden zugleich Wand und Tragwerk, an den Ecken verkämmt. Massiv, traditionell, hoher Holzverbrauch, Setzungen durch Schwinden.\n- Fachwerkbau (Ständer- und Riegelbau): tragendes Gerüst aus Schwelle, Pfosten, Riegel und Streben, die Gefache werden ausgefacht (Lehm, Ziegel). Sichtbares Holzskelett, lastabtragende Streben gegen Aussteifung.\n- Holzrahmen- bzw. Holzständerbau: Wände aus einem Rippengerüst (Ständer im Raster), beidseitig beplankt (z. B. OSB, Gipsplatten), Gefache gedämmt. Leichte, hoch vorgefertigte Tafelbauweise, die Beplankung steift aus.\n- Holzskelettbau: weit gestelltes Tragsystem aus Stützen und Trägern (oft BSH), die Lasten punktförmig abtragen, Wände sind nichttragende Ausfachung. Große, frei einteilbare Grundrisse und Öffnungen.\n- Holzmassivbau: flächige Massivelemente, vor allem Brettsperrholz (CLT) aus kreuzweise verleimten Lagen, als tragende Wände und Decken. Hohe Tragfähigkeit, Aussteifung und Speichermasse, sehr maßhaltig und schnell montierbar.",
+  "source": "Baustofftechnik · Holz · Frage 19",
+  "sketch": false
+ },
+ {
+  "id": "bs020",
+  "path": "baustofftechnik",
+  "category": "Metalle",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen des Baustoffes Stahl.",
+  "answer": "Stahl ist ein homogener, isotroper Werkstoff mit hoher Festigkeit bei Zug und Druck.\nStärken:\n- Sehr hohe Zug- und Druckfestigkeit bei geringem Querschnitt, dadurch schlanke Bauteile und große Spannweiten.\n- Duktil, kündigt Versagen durch plastische Verformung an (Fließen statt Sprödbruch).\n- Vorfertigung im Werk, schnelle und trockene Montage, gut fügbar (Schweißen, Schrauben).\n- Sortenrein und ohne Qualitätsverlust recycelbar.\nSchwächen:\n- Sehr energieintensive Herstellung mit hoher CO2-Last.\n- Korrosionsanfällig, braucht Korrosionsschutz (Verzinken, Beschichtung).\n- Hohe Wärmeleitfähigkeit, wirkt als Wärmebrücke.\n- Im Brandfall rascher Festigkeitsverlust ab etwa 500 Grad Celsius, daher Brandschutzbekleidung nötig.",
+  "source": "Baustofftechnik · Metalle · Frage 20",
+  "sketch": false
+ },
+ {
+  "id": "bs021",
+  "path": "baustofftechnik",
+  "category": "Metalle",
+  "question": "Benennen Sie die wesentlichen Einsatzgebiete von Metallen im Bauwesen.",
+  "answer": "Metalle werden im Bauwesen tragend und ausbauend eingesetzt:\n- Tragwerke aus Baustahl: Stützen, Träger, Fachwerke, Hallen, Brücken, Geschossbauten.\n- Bewehrung im Stahlbeton (Betonstahl) und Spannstahl im Spannbeton.\n- Verbindungs- und Befestigungsmittel: Schrauben, Nägel, Dübel, Anker, Bleche.\n- Fassaden und Dachdeckungen: Bleche und Profile aus Zink, Kupfer, Aluminium, Edelstahl.\n- Fenster- und Pfosten-Riegel-Konstruktionen aus Aluminium oder Stahl.\n- Gebäudetechnik: Rohrleitungen aus Kupfer, Stahl, Edelstahl.\nNeben Stahl sind Aluminium (leicht, korrosionsbeständig), Kupfer und Zink (Dach, Fassade) die wichtigsten Baumetalle.",
+  "source": "Baustofftechnik · Metalle · Frage 21",
+  "sketch": false
+ },
+ {
+  "id": "bs022",
+  "path": "baustofftechnik",
+  "category": "Metalle",
+  "question": "Bewerten Sie den Baustoff Stahl vor dem Hintergrund der Nachhaltigkeit.",
+  "answer": "Stahl ist ökologisch ambivalent.\nNachteilig: Die Primärerzeugung im Hochofen ist sehr energieintensiv und verursacht hohe CO2-Emissionen, der Primärenergieinhalt (graue Energie) ist hoch. Eisenerz ist zudem ein endlicher Rohstoff.\nVorteilhaft: Stahl ist sortenrein und nahezu vollständig recycelbar, ohne dass die Materialqualität sinkt. Schrott wird im Elektrolichtbogenofen mit deutlich geringerem Energieaufwand wieder eingeschmolzen. Die hohe Festigkeit erlaubt materialsparende, leichte Konstruktionen, und geschraubte Verbindungen sind rückbaubar und wiederverwendbar.\nIn der Gesamtbilanz hängt die Nachhaltigkeit stark vom Recyclinganteil und der Herstellungsroute ab. Hohe Dauerhaftigkeit, Rückbaubarkeit und Wiederverwendung verbessern die Bilanz deutlich.",
+  "source": "Baustofftechnik · Metalle · Frage 22",
+  "sketch": false
+ },
+ {
+  "id": "bs023",
+  "path": "baustofftechnik",
+  "category": "Beton",
+  "question": "Benennen Sie die wesentlichen Stärken und Schwächen des Materials Beton.",
+  "answer": "Beton ist ein künstlicher Stein aus Zement, Gesteinskörnung und Wasser.\nStärken:\n- Sehr hohe Druckfestigkeit.\n- Frei formbar, da im plastischen Zustand verarbeitet und in Schalung gegossen.\n- Dauerhaft, witterungs- und feuerbeständig (nicht brennbar).\n- Hohe Rohdichte und Masse, dadurch gute Wärmespeicherung und guter Schallschutz.\n- Wirtschaftlich, Ausgangsstoffe regional verfügbar.\nSchwächen:\n- Geringe Zugfestigkeit, deshalb in der Regel Bewehrung als Stahlbeton nötig.\n- Hohe CO2-Last durch die Zementherstellung.\n- Hohes Eigengewicht.\n- Schlechte Wärmedämmeigenschaften, daher zusätzliche Dämmung erforderlich.\n- Schwierig zu trennen und zu recyceln (Verbundwerkstoff).",
+  "source": "Baustofftechnik · Beton · Frage 23",
+  "sketch": false
+ },
+ {
+  "id": "bs024",
+  "path": "baustofftechnik",
+  "category": "Beton",
+  "question": "Bewerten Sie den Baustoff Beton vor dem Hintergrund der Nachhaltigkeit.",
+  "answer": "Beton ist wegen seiner Menge der ökologisch kritischste Massenbaustoff.\nNachteilig: Die Zementherstellung verursacht sehr hohe CO2-Emissionen, sowohl energiebedingt durch das Brennen als auch prozessbedingt durch die Kalzinierung. Der Sandverbrauch ist hoch, und der Verbundwerkstoff aus Beton und Stahl lässt sich nur schwer sortenrein trennen.\nVorteilhaft: Beton ist sehr dauerhaft und langlebig, was über die Nutzungsdauer entlastet. Seine Masse kann zur Wärmespeicherung genutzt werden. Verbesserungen sind möglich durch Zemente mit reduziertem Klinkeranteil, durch Recyclingbeton (R-Beton mit rezyklierter Gesteinskörnung) und durch materialsparende Bauteilgeometrien.\nNachhaltig ist Beton vor allem dort, wo seine spezifischen Eigenschaften wie Tragfähigkeit, Masse und Dauerhaftigkeit wirklich gebraucht werden, und nicht im Übermaß eingesetzt wird.",
+  "source": "Baustofftechnik · Beton · Frage 24",
+  "sketch": false
+ },
+ {
+  "id": "bs025",
+  "path": "baustofftechnik",
+  "category": "Beton",
+  "question": "Erläutern Sie den Unterschied zwischen energiebedingten und prozessbedingten Emissionen. Wieso ist dies beim Beton relevant?",
+  "answer": "Energiebedingte Emissionen entstehen durch den Energieeinsatz, also durch das Verbrennen von Brennstoffen zur Erzeugung der Prozesswärme. Sie lassen sich durch effizientere Öfen und alternative oder regenerative Brennstoffe senken.\nProzessbedingte Emissionen entstehen direkt aus der chemischen Reaktion des Herstellungsprozesses, unabhängig vom Brennstoff. Sie lassen sich nicht durch andere Energieträger vermeiden.\nBeim Beton ist das relevant, weil die Zementherstellung beide Anteile vereint. Beim Brennen des Kalksteins zu Zementklinker läuft die Kalzinierung ab: Calciumcarbonat (CaCO3) wird zu Calciumoxid (CaO) und Kohlendioxid (CO2) zersetzt. Dieses CO2 wird zwangsläufig frei und macht etwa 60 Prozent der gesamten Zement-Emissionen aus. Selbst eine vollständig CO2-freie Energieversorgung beseitigt diesen prozessbedingten Anteil nicht. Deshalb setzen Minderungsstrategien an der Reduzierung des Klinkeranteils an.",
+  "source": "Baustofftechnik · Beton · Frage 25",
+  "sketch": false
+ },
+ {
+  "id": "bs026",
+  "path": "baustofftechnik",
+  "category": "Beton",
+  "question": "Beschreiben Sie den Aufbau einer Stahlbetonwand und bewerten Sie die einzelnen Schichten im Hinblick auf ihre Materialverwendung.",
+  "answer": "Eine gedämmte Stahlbetonaußenwand ist von außen nach innen typischerweise aufgebaut:\n- Außenputz oder Fassadenbekleidung: schützt vor Schlagregen und Witterung.\n- Wärmedämmung (zum Beispiel Mineralwolle, Holzfaser oder EPS): trägt fast den gesamten Wärmeschutz, da Stahlbeton selbst kaum dämmt. Sie liegt außen, damit die speichernde Masse warm bleibt und Wärmebrücken reduziert werden.\n- Tragende Stahlbetonwand (Beton mit Bewehrung): übernimmt Lastabtrag und Aussteifung. Der Beton trägt die Druckkräfte, die Stahlbewehrung die Zugkräfte. Die Masse wirkt schall- und wärmespeichernd.\n- Innenputz: glättet die Oberfläche und kann luftdichtend wirken.\nBewertung: Jede Schicht erfüllt eine klare Funktion (Schutz, Dämmen, Tragen, Oberfläche). Materialeffizient ist es, das energieintensive Material Stahlbeton nur für die Tragfunktion zu verwenden und Wärmeschutz über die leichte Dämmschicht zu lösen, statt die Wand allein über ihre Dicke zu dämmen.",
+  "source": "Baustofftechnik · Beton · Frage 26",
+  "sketch": false
+ },
+ {
+  "id": "bs027",
+  "path": "baustofftechnik",
+  "category": "Beton",
+  "question": "Welche Betonarten kennen Sie?",
+  "answer": "Betonarten lassen sich nach Rohdichte, Bewehrung und besonderen Eigenschaften unterscheiden:\n- Normalbeton: Rohdichte etwa 2000 bis 2600 kg/m3, der Standardbeton.\n- Leichtbeton: Rohdichte unter 2000 kg/m3, mit porigen Zuschlägen (zum Beispiel Blähton), bessere Wärmedämmung.\n- Schwerbeton: Rohdichte über 2600 kg/m3, mit schweren Zuschlägen, etwa für Strahlenschutz.\n- Stahlbeton: bewehrter Beton, der Zugkräfte über die Bewehrung aufnimmt.\n- Spannbeton: mit vorgespannter Bewehrung, für große Spannweiten und geringe Durchbiegung.\n- Faserbeton: mit Stahl-, Glas- oder Kunststofffasern zur Erhöhung der Zähigkeit.\n- Sichtbeton: gestalterisch hochwertige, sichtbar belassene Betonoberfläche.\n- Recyclingbeton (R-Beton): mit rezyklierter Gesteinskörnung aus Bauschutt.",
+  "source": "Baustofftechnik · Beton · Frage 27",
+  "sketch": false
+ },
+ {
+  "id": "bs028",
+  "path": "baustofftechnik",
+  "category": "Kontext und Gebäude",
+  "question": "Welche Bedeutung hat die geographische Lage eines Gebäudes für die Entwurfsplanung?",
+  "answer": "Die geographische Lage bestimmt die klimatischen Randbedingungen, die ein Entwurf beantworten muss. Breitengrad und Klimazone legen Temperaturbereich, Sonnenstand, solare Einstrahlung, Niederschlag und Hauptwindrichtung fest. Daraus folgen Entscheidungen zu Orientierung, Kompaktheit (A/V-Verhältnis), Größe und Lage der Fensteröffnungen, Verschattung sowie Maß und Lage der Dämmung.\nIn kühlen Klimazonen wie Mitteleuropa stehen Wärmeschutz und solare Gewinne im Vordergrund, in heißen Regionen Verschattung, Speichermasse und Kühlung. Auch Topographie, Höhenlage, Vegetation und die örtlich verfügbaren Baustoffe beeinflussen den Entwurf. Ein klimagerechter Entwurf nutzt die Standortbedingungen aktiv und senkt so den Energiebedarf.",
+  "source": "Baustofftechnik · Kontext und Gebäude · Frage 28",
+  "sketch": false
+ },
+ {
+  "id": "bs029",
+  "path": "baustofftechnik",
+  "category": "Kontext und Gebäude",
+  "question": "Welche Bedeutung haben traditionelle Bauweisen und -techniken?",
+  "answer": "Traditionelle Bauweisen sind über Generationen an Klima, Standort und regional verfügbare Baustoffe angepasst. Sie zeigen erprobte, ressourcensparende Lösungen, die ohne fossile Energie auskommen, etwa massive Speicherbauweisen mit kleinen Öffnungen in heißen Regionen oder kompakte, gut dämmende Holz- und Lehmbauten in kühlen Regionen.\nIhre Bedeutung liegt darin, dass sie lokale Identität und Baukultur prägen und zugleich Vorbild für nachhaltiges, klimagerechtes Bauen sind. Sie nutzen meist nachwachsende oder regionale Materialien (Holz, Lehm, Naturstein, Stroh) mit geringer grauer Energie und kurzen Transportwegen. Für den heutigen Entwurf liefern sie Prinzipien wie passive Klimatisierung, Materialgerechtigkeit und Reparierbarkeit, die mit moderner Bautechnik weiterentwickelt werden können.",
+  "source": "Baustofftechnik · Kontext und Gebäude · Frage 29",
+  "sketch": false
+ },
+ {
+  "id": "bs030",
+  "path": "baustofftechnik",
+  "category": "Kontext und Gebäude",
+  "question": "Erläutern Sie Ihre Kenntnisse zum Sonnenstand.",
+  "answer": "Der Sonnenstand beschreibt die Position der Sonne am Himmel und wird durch zwei Winkel angegeben:\n- Azimut: die Himmelsrichtung der Sonne, gemessen in der Horizontalebene. Mittags im Süden steht die Sonne am höchsten.\n- Höhenwinkel (Elevation): der Winkel der Sonne über dem Horizont.\nDer Sonnenstand ändert sich über den Tag (morgens im Osten, mittags im Süden, abends im Westen) und über das Jahr. Im Sommer steht die Sonne hoch und der Höhenwinkel ist groß, im Winter steht sie flach und der Höhenwinkel ist klein. Die Tageslänge und der Einstrahlungswinkel hängen vom Breitengrad ab.\nFür den Entwurf ist dies wichtig, um Orientierung, solare Gewinne und Verschattung zu planen: Ein fester Dachüberstand oder ein Vordach kann die hochstehende Sommersonne abhalten und die flache Wintersonne dennoch hereinlassen.",
+  "source": "Baustofftechnik · Kontext und Gebäude · Frage 30",
+  "sketch": false
+ },
+ {
+  "id": "bs031",
+  "path": "baustofftechnik",
+  "category": "Kontext und Gebäude",
+  "question": "Erläutern Sie die Abhängigkeiten von Gebäudeorientierung und Nutzung.",
+  "answer": "Die Orientierung der Räume sollte zu ihrer Nutzung und zum Tagesverlauf der Sonne passen, um solare Gewinne und Tageslicht sinnvoll zu nutzen.\n- Süden: hohe solare Gewinne, gut für Wohn- und Aufenthaltsräume, im Sommer ist Verschattung nötig.\n- Osten: Morgensonne, geeignet für Schlaf- und Frühstücksräume.\n- Westen: Nachmittags- und Abendsonne, kann im Sommer zu Überhitzung führen.\n- Norden: kein direktes Sonnenlicht, gleichmäßiges Licht, geeignet für Nebenräume, Lager, Treppenhäuser oder Arbeitsräume mit blendfreiem Licht (Ateliers).\nGroße Fensterflächen werden bevorzugt nach Süden gelegt, um im Winter Wärme zu gewinnen, nach Norden werden sie klein gehalten, um Wärmeverluste zu begrenzen. So verknüpft eine gute Zonierung Raumnutzung, Belichtung und Energiebedarf.",
+  "source": "Baustofftechnik · Kontext und Gebäude · Frage 31",
+  "sketch": false
+ },
+ {
+  "id": "bs032",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Erläutern Sie die Bedeutung des Lambda-Wertes (λ) für den Wärmeschutz.",
+  "answer": "Der Lambda-Wert (λ) ist die Wärmeleitfähigkeit eines Materials, angegeben in W/(m·K). Er beschreibt, wie viel Wärme ein Stoff bei gegebenem Temperaturunterschied leitet, und ist eine reine Materialkenngröße, unabhängig von der Bauteildicke.\nJe kleiner der λ-Wert, desto schlechter leitet das Material Wärme und desto besser dämmt es. Dämmstoffe haben sehr kleine Werte (etwa 0,02 bis 0,045 W/(m·K)), Beton oder Metall sehr hohe.\nDer λ-Wert ist die Grundlage für die weitere Berechnung des Wärmeschutzes: Aus ihm und der Schichtdicke d ergibt sich der Wärmedurchlasswiderstand R = d/λ, der wiederum in den U-Wert eingeht. Für guten Wärmeschutz wählt man Materialien mit niedrigem λ-Wert in ausreichender Dicke.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 32",
+  "sketch": false
+ },
+ {
+  "id": "bs033",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Erläutern Sie den Wärmedurchlasswiderstand R und den Wärmedurchgangskoeffizienten U.",
+  "answer": "Der Wärmedurchlasswiderstand R beschreibt den Widerstand einer Bauteilschicht gegen den Wärmedurchgang. Er wird aus Schichtdicke und Wärmeleitfähigkeit berechnet: R = d/λ, Einheit m²K/W. Je dicker die Schicht und je kleiner der λ-Wert, desto größer R und desto besser die Dämmwirkung. Bei mehrschichtigen Bauteilen addieren sich die Einzelwiderstände.\nDer Wärmedurchgangskoeffizient U (früher k-Wert) beschreibt den gesamten Wärmedurchgang durch ein Bauteil einschließlich der Wärmeübergänge an beiden Oberflächen. Er ist der Kehrwert des gesamten Wärmedurchgangswiderstands: U = 1/R_T, Einheit W/(m²K). R_T umfasst die inneren und äußeren Wärmeübergangswiderstände (Rsi, Rse) und alle Schichtwiderstände.\nDer U-Wert gibt an, wie viel Wärme je Quadratmeter und Kelvin Temperaturdifferenz verloren geht. Ein kleiner U-Wert bedeutet guten Wärmeschutz und geringe Verluste.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 33",
+  "sketch": false
+ },
+ {
+  "id": "bs034",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Welchen Zusammenhang gibt es zwischen Temperatur und Luftfeuchte?",
+  "answer": "Warme Luft kann mehr Wasserdampf aufnehmen als kalte Luft. Die maximal mögliche Wasserdampfmenge, die Sättigungsfeuchte, steigt mit der Temperatur an.\nDie relative Luftfeuchte gibt an, wie viel Prozent dieser maximal möglichen Menge die Luft bei der jeweiligen Temperatur tatsächlich enthält. Kühlt feuchte Luft ab, sinkt die Sättigungsgrenze, während der absolute Wasserdampfgehalt zunächst gleich bleibt. Dadurch steigt die relative Luftfeuchte an.\nErreicht sie 100 Prozent, ist die Luft gesättigt. Diese Temperatur ist der Taupunkt. Kühlt die Luft weiter ab oder trifft sie auf eine kältere Oberfläche, fällt der überschüssige Wasserdampf als Tauwasser (Kondensat) aus. Das ist die Ursache für Schwitzwasser an kalten Bauteilen und für Tauwasser in Bauteilen, ein zentraler Zusammenhang für Wärme- und Feuchteschutz.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 34",
+  "sketch": false
+ },
+ {
+  "id": "bs035",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Welche Bedeutung hat der Wärmeschutz für das Bauen in unserer Region?",
+  "answer": "In Mitteleuropa herrscht ein gemäßigtes, im Winter kaltes Klima mit langer Heizperiode. Der Wärmeschutz hat hier große Bedeutung, weil ein erheblicher Teil des Energieverbrauchs auf das Heizen von Gebäuden entfällt.\nGuter Wärmeschutz senkt die Heizwärmeverluste und damit Energiebedarf, Kosten und CO2-Emissionen. Er ist in Deutschland gesetzlich durch das Gebäudeenergiegesetz (GEG) geregelt, das Mindestanforderungen an U-Werte und an den Gesamtenergiebedarf stellt.\nNeben Energieeinsparung dient der Wärmeschutz auch der Behaglichkeit (warme Innenoberflächen, keine kalte Zugluft) und dem Bauschutz: Ausreichend gedämmte Bauteile halten ihre inneren Oberflächen warm und vermeiden so Tauwasser und Schimmelbildung. Für unsere Region ist Wärmeschutz daher Voraussetzung für energieeffizientes, gesundes und dauerhaftes Bauen.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 35",
+  "sketch": false
+ },
+ {
+  "id": "bs036",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Nennen Sie die wichtigsten Wärmeschutzmaßnahmen.",
+  "answer": "Die wichtigsten Wärmeschutzmaßnahmen betreffen die gesamte Gebäudehülle:\n- Dämmung der opaken Bauteile: Außenwände, Dach beziehungsweise oberste Geschossdecke und Kellerdecke beziehungsweise Bodenplatte mit ausreichend dicker Dämmschicht (niedriger λ-Wert).\n- Hochwertige Fenster und Türen: Wärmeschutzverglasung (Zwei- oder Dreischeiben) und gedämmte Rahmen mit niedrigem U-Wert.\n- Vermeidung von Wärmebrücken durch durchdachte Detailausbildung.\n- Luftdichte Gebäudehülle, um Wärmeverluste durch Konvektion zu vermeiden (Nachweis per Blower-Door).\n- Kompakter Baukörper mit günstigem A/V-Verhältnis, um die wärmeübertragende Fläche klein zu halten.\n- Ergänzend kontrollierte Lüftung mit Wärmerückgewinnung, um Lüftungswärmeverluste zu mindern.\nDie passiven baulichen Maßnahmen (Dämmung, Fenster, Luftdichtheit, Kompaktheit) stehen dabei an erster Stelle.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 36",
+  "sketch": false
+ },
+ {
+  "id": "bs037",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Welche Bedeutung für den Wärmeschutz hat die Anordnung der Fensteröffnungen in einem Gebäude?",
+  "answer": "Fenster sind die wärmetechnisch schwächsten Flächen der Gebäudehülle, ihr U-Wert ist deutlich höher als der opaker Wandflächen. Gleichzeitig lassen sie solare Energie und Tageslicht herein. Ihre Anordnung beeinflusst daher die Wärmebilanz erheblich.\n- Nach Süden orientierte Fenster bringen im Winter solare Gewinne, die die Verluste teilweise ausgleichen. Hier sind größere Flächen sinnvoll, im Sommer ist jedoch Verschattung nötig, um Überhitzung zu vermeiden.\n- Nach Norden gerichtete Fenster bringen kaum solare Gewinne, sondern überwiegend Verluste. Sie sollten klein gehalten werden.\n- Ost- und Westfenster liefern Morgen- und Abendsonne, Westfenster bergen sommerliches Überhitzungsrisiko.\nEine sinnvolle Verteilung mit größeren Flächen im Süden und kleineren im Norden optimiert die Bilanz aus solaren Gewinnen und Wärmeverlusten.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 37",
+  "sketch": false
+ },
+ {
+  "id": "bs038",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Was halten Sie von Innendämmungen bei denkmalgeschützten Gebäuden?",
+  "answer": "Bei denkmalgeschützten Gebäuden ist die Innendämmung oft die einzige Möglichkeit, weil eine Außendämmung die schützenswerte Fassade verdecken würde. Sie ist damit ein sinnvoller Kompromiss zwischen Denkmalschutz und energetischer Verbesserung, jedoch bauphysikalisch anspruchsvoll.\nDas zentrale Problem ist das Tauwasserrisiko: Die Innendämmung hält die dahinterliegende Wand kalt, weil die wärmespeichernde Masse vom beheizten Raum abgekoppelt wird. Die Taupunkttemperatur kann sich in die Konstruktion verlagern, sodass an der Grenze zwischen Dämmung und Altwand Tauwasser ausfallen und Feuchteschäden oder Schimmel begünstigen kann. Hinzu kommt, dass bestehende Wärmebrücken (zum Beispiel einbindende Decken und Innenwände) verstärkt wirken.\nDeshalb sind Innendämmungen möglich, müssen aber feuchtetechnisch sorgfältig geplant werden, etwa mit kapillaraktiven, diffusionsoffenen Dämmsystemen und einer luftdichten Ausführung. Ein hygrothermischer Nachweis ist ratsam.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 38",
+  "sketch": false
+ },
+ {
+  "id": "bs039",
+  "path": "baustofftechnik",
+  "category": "Wärmeschutz",
+  "question": "Welche Arten von Wärmebrücken kennen Sie? Erläutern Sie die Unterschiede.",
+  "answer": "Wärmebrücken sind örtlich begrenzte Bereiche der Gebäudehülle mit erhöhtem Wärmeabfluss. Dort sinkt die innere Oberflächentemperatur, was Energieverluste vergrößert und Tauwasser- und Schimmelbildung begünstigt. Man unterscheidet:\n- Geometrische Wärmebrücken: Sie entstehen durch die Form des Bauteils, wenn die wärmeabgebende Außenfläche größer ist als die aufnehmende Innenfläche, zum Beispiel an Gebäudeecken oder Kanten.\n- Materialbedingte (stoffliche) Wärmebrücken: Sie entstehen, wenn ein gut wärmeleitendes Material die Dämmebene durchdringt, zum Beispiel eine Stahlstütze oder ein Betonsturz in einer gedämmten Wand.\n- Konstruktive Wärmebrücken: Sie entstehen durch die Art der konstruktiven Durchdringung der Dämmebene, zum Beispiel eine auskragende Balkonplatte aus Stahlbeton oder einbindende Decken und Wände.\nIn der Praxis treten die Typen oft kombiniert auf, etwa an der auskragenden Balkonplatte (konstruktiv und geometrisch). Wärmebrücken werden durch Dämmung, thermische Trennung (zum Beispiel Iso-Körbe) und sorgfältige Detailplanung minimiert.",
+  "source": "Baustofftechnik · Wärmeschutz · Frage 39",
+  "sketch": false
+ },
+ {
+  "id": "bs040",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Welche Arten der Feuchteeinwirkung auf Gebäude kennen Sie?",
+  "answer": "Feuchte wirkt aus mehreren Richtungen auf ein Gebäude ein:\n- Niederschlag und Schlagregen: Regen, der durch Wind seitlich gegen Fassade und Fenster getrieben wird.\n- Spritzwasser: vom Boden abprallendes Wasser im Sockelbereich.\n- Aufsteigende Feuchte: kapillarer Wassertransport aus dem Erdreich in erdberührte Bauteile ohne Horizontalsperre.\n- Drückendes und nichtdrückendes Wasser: Grund- und Sickerwasser, das mit hydrostatischem Druck auf erdberührte Bauteile wirkt.\n- Tauwasser (Kondensat): Wasserdampf, der an kalten Oberflächen oder im Bauteilquerschnitt unter den Taupunkt fällt.\n- Bau- und Nutzungsfeuchte: Restfeuchte aus der Bauphase (Estrich, Putz) sowie Feuchte aus Nutzung (Kochen, Duschen, Atmung).",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 40",
+  "sketch": false
+ },
+ {
+  "id": "bs041",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Welche Schäden können durch Feuchteeinwirkung auftreten?",
+  "answer": "Feuchte ist eine der häufigsten Schadensursachen am Bau:\n- Schimmelpilzbildung an Oberflächen und in Bauteilen, mit hygienischen und gesundheitlichen Folgen.\n- Frostschäden: gefrierendes Wasser sprengt poröse Baustoffe (Abplatzungen an Putz, Ziegel, Beton).\n- Korrosion der Bewehrung und von Metallteilen, mit Volumenvergrößerung und Betonabplatzungen.\n- Holzzerstörung durch Fäulnis (Pilze) und holzzerstörende Insekten bei dauerhaft erhöhter Holzfeuchte.\n- Tragfähigkeits- und Dauerhaftigkeitsverlust, Salzausblühungen, Putzabplatzungen und Verfärbungen.\n- Verschlechterung des Wärmeschutzes, da durchfeuchtete Dämmstoffe deutlich schlechter dämmen.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 41",
+  "sketch": false
+ },
+ {
+  "id": "bs042",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erläutern Sie die wichtigsten Feuchteschutzmaßnahmen.",
+  "answer": "Feuchteschutz wirkt gegen alle Feuchtearten gleichzeitig:\n- Abdichtung erdberührter Bauteile gegen Bodenfeuchte und drückendes Wasser, dazu Horizontalsperren gegen aufsteigende Feuchte (Abdichtungsregeln der DIN 18533).\n- Konstruktiver Witterungsschutz: ausreichender Dachüberstand, Tropfkanten, hinterlüftete Fassaden, Sockelausbildung.\n- Funktionierende Dachabdichtung und Entwässerung, Regenwasser sicher ableiten.\n- Diffusionsoffener oder mit Dampfbremse geregelter Wandaufbau, damit Tauwasser im Querschnitt vermieden wird.\n- Luftdichte Gebäudehülle, um feuchtebeladene Raumluft von der Konstruktion fernzuhalten.\n- Ausreichende Lüftung und Beheizung in der Nutzung, um Nutzungsfeuchte abzuführen und Oberflächen warm zu halten.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 42",
+  "sketch": false
+ },
+ {
+  "id": "bs043",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Welche Abwasserarten kennen Sie? Beschreiben Sie Möglichkeiten der Weiterverwendung.",
+  "answer": "Abwasser wird nach Verschmutzungsgrad und Herkunft unterschieden:\n- Schwarzwasser: fäkalienhaltiges Abwasser aus Toiletten, stark belastet, muss in die Kanalisation oder Kläranlage. Eine Nutzung ist nur über aufwändige Aufbereitung (Biogas, Düngung) möglich.\n- Grauwasser: gering belastetes Abwasser aus Dusche, Badewanne und Waschbecken, frei von Fäkalien. Es lässt sich nach einfacher Aufbereitung als Betriebswasser für Toilettenspülung, Reinigung oder Bewässerung wiederverwenden.\n- Regenwasser: von Dächern und befestigten Flächen abfließendes Niederschlagswasser. Es kann in Zisternen gesammelt und für Gartenbewässerung, Toilettenspülung und Reinigung genutzt oder versickert werden.\nDie Trennung der Ströme spart Trinkwasser und entlastet Kanalisation und Kläranlage.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 43",
+  "sketch": false
+ },
+ {
+  "id": "bs044",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Warum sollte Wasser gespart werden?",
+  "answer": "Trinkwasser ist eine begrenzte und wertvolle Ressource:\n- Aufbereitung, Verteilung und vor allem Erwärmung von Wasser kosten Energie. Warmwassersparen senkt direkt den Energieverbrauch und die CO2-Emissionen.\n- Übermäßige Grundwasserentnahme kann Wasserhaushalt und Ökosysteme belasten, regional drohen durch Klimawandel Knappheiten.\n- Sparsamer Verbrauch entlastet Kanalisation und Kläranlagen und senkt die Betriebskosten.\nMaßnahmen sind wassersparende Armaturen, Regen- und Grauwassernutzung sowie das Trennen von Trinkwasser- und Betriebswasserbedarf.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 44",
+  "sketch": false
+ },
+ {
+  "id": "bs045",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erklären Sie die Zusammenhänge von Wärme- und Feuchteschutz.",
+  "answer": "Wärme- und Feuchteschutz hängen physikalisch eng zusammen. Warme Luft kann mehr Wasserdampf aufnehmen als kalte. Kühlt feuchte Raumluft an einer kalten Bauteiloberfläche oder im Bauteilinneren unter den Taupunkt ab, fällt Tauwasser aus. Eine gute Wärmedämmung hält die inneren Oberflächen warm und verhindert so Oberflächenkondensat und Schimmel. Im Querschnitt verschiebt die Dämmung die Lage der Taupunktebene, daher muss der Schichtenaufbau diffusionstechnisch stimmen, oft mit innenseitiger Dampfbremse (sd-Wert innen hoch, außen niedrig). Wärmebrücken sind zugleich Feuchtebrücken, weil dort die Oberflächentemperatur lokal absinkt. Durchfeuchtete Dämmung verliert ihre Dämmwirkung, weshalb Feuchteschutz Voraussetzung für dauerhaften Wärmeschutz ist.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 45",
+  "sketch": false
+ },
+ {
+  "id": "bs046",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erläutern Sie den Begriff relative Luftfeuchte.",
+  "answer": "Die relative Luftfeuchte gibt an, zu wieviel Prozent die Luft bei einer bestimmten Temperatur mit Wasserdampf gesättigt ist. Sie ist das Verhältnis des aktuell vorhandenen Wasserdampfgehalts zum maximal möglichen Sättigungsgehalt bei dieser Temperatur, angegeben in Prozent. Da der Sättigungsgehalt mit steigender Temperatur zunimmt, sinkt die relative Luftfeuchte beim Erwärmen der Luft und steigt beim Abkühlen, obwohl die absolute Wassermenge gleich bleibt. Bei 100 Prozent relativer Luftfeuchte ist die Luft gesättigt, weiterer Dampf kondensiert. Behagliche Innenraumwerte liegen etwa zwischen 40 und 60 Prozent.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 46",
+  "sketch": false
+ },
+ {
+  "id": "bs047",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erläutern Sie die Taupunkttemperatur von Wasserdampf.",
+  "answer": "Die Taupunkttemperatur ist die Temperatur, auf die feuchte Luft abgekühlt werden muss, damit sie mit Wasserdampf gesättigt ist, also 100 Prozent relative Luftfeuchte erreicht. Wird die Luft weiter unter den Taupunkt abgekühlt, kann sie den Wasserdampf nicht mehr halten und ein Teil schlägt sich als Tauwasser (Kondensat) nieder. Der Taupunkt hängt vom aktuellen Wasserdampfgehalt der Luft ab: je feuchter die Luft, desto höher die Taupunkttemperatur. In der Bauphysik ist er entscheidend, weil Kondensat dort entsteht, wo eine Bauteiloberfläche oder eine Schicht im Querschnitt kälter ist als der Taupunkt der angrenzenden Luft. Das ist die Hauptursache für Tauwasser- und Schimmelschäden.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 47",
+  "sketch": false
+ },
+ {
+  "id": "bs048",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erläutern Sie die Bedeutung des µ-Wertes für den Feuchteschutz.",
+  "answer": "Der µ-Wert ist die Wasserdampfdiffusionswiderstandszahl. Er gibt dimensionslos an, um wieviel ein Baustoff der Wasserdampfdiffusion mehr Widerstand entgegensetzt als eine gleich dicke ruhende Luftschicht (Luft hat µ = 1). Ein hoher µ-Wert bedeutet dampfdichtes Verhalten, ein niedriger diffusionsoffenes Verhalten. Beispiele: Mineralwolle ist sehr offen (µ um 1), Beton dichter (µ um 70 bis 150), Folien sehr dicht (µ in Tausenden). Maßgebend für die Praxis ist die wasserdampfdiffusionsäquivalente Luftschichtdicke sd = µ mal Schichtdicke d in Metern, weil sie die Materialdicke einbezieht. Für tauwasserfreie Aufbauten ordnet man die Schichten so, dass der sd-Wert von innen nach außen abnimmt, damit eindiffundierte Feuchte nach außen austrocknen kann.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 48",
+  "sketch": false
+ },
+ {
+  "id": "bs049",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Wozu wird in unseren Breitengraden die luftdichte Gebäudehülle verlangt?",
+  "answer": "In unseren Breiten herrscht über lange Zeit des Jahres ein Temperaturgefälle zwischen warm-feuchter Innenluft und kalter Außenluft. Eine luftdichte Hülle verhindert, dass warme Raumluft durch Fugen und Undichtigkeiten nach außen strömt (Konvektion). Das hat mehrere Gründe:\n- Energieeinsparung: unkontrollierte Luftströmung führt zu hohen Lüftungswärmeverlusten.\n- Feuchteschutz: die durchströmende warme Luft kühlt im Bauteil ab, fällt unter den Taupunkt und führt zu Tauwasserschäden in der Konstruktion. Konvektion transportiert weit mehr Feuchte als reine Diffusion.\n- Behaglichkeit und Schallschutz: keine Zugluft, bessere Schalldämmung.\nDas GEG fordert eine luftdichte Gebäudehülle, die Dichtheit wird mit dem Blower-Door-Test (Differenzdruckverfahren) überprüft. Notwendig ist dann eine kontrollierte Lüftung, um Feuchte und verbrauchte Luft abzuführen.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 49",
+  "sketch": false
+ },
+ {
+  "id": "bs050",
+  "path": "baustofftechnik",
+  "category": "Feuchteschutz",
+  "question": "Erläutern Sie den Unterschied von luftdicht und dampfdicht.",
+  "answer": "Luftdicht und dampfdicht betreffen zwei verschiedene Transportmechanismen:\n- Luftdicht meint die Verhinderung von Luftströmung (Konvektion) durch die Hülle. Eine luftdichte Schicht lässt keine Luft und damit auch die in ihr enthaltene Feuchte und Wärme durch. Sie schützt vor Lüftungswärmeverlust und konvektivem Feuchteeintrag, gefordert durch das GEG und geprüft mit der Blower-Door-Messung.\n- Dampfdicht meint einen sehr hohen Widerstand gegen Wasserdampfdiffusion, also einen sehr hohen µ- bzw. sd-Wert. Eine dampfdichte Schicht (Dampfsperre) lässt praktisch keinen Wasserdampf durch das Material diffundieren.\nEine Schicht kann luftdicht und zugleich diffusionsoffen sein, etwa eine dampfbremsende Folie oder verputztes Mauerwerk. Für die meisten Aufbauten reicht eine luftdichte, dampfbremsende Ebene, eine vollständig dampfdichte Sperre wird nur in Sonderfällen eingesetzt.",
+  "source": "Baustofftechnik · Feuchteschutz · Frage 50",
+  "sketch": false
+ },
+ {
+  "id": "bs051",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Welche Schallarten kennen Sie?",
+  "answer": "Schall wird nach dem Übertragungsmedium und der Anregung unterschieden:\n- Luftschall: Schall, der sich als Druckschwankung in der Luft ausbreitet, etwa Sprache, Musik, Verkehrslärm.\n- Körperschall: Schwingungen, die sich in festen Bauteilen ausbreiten, etwa durch Maschinen, Wasserrohre oder Anschlagen.\n- Trittschall: ein Sonderfall des Körperschalls, der durch Begehen, Stühlerücken oder Gehen auf einer Decke entsteht, in das Bauteil eingeleitet wird und in darunterliegenden Räumen wieder als Luftschall abgestrahlt wird.\nKörper- und Trittschall werden durch Entkopplung bekämpft, Luftschall durch Masse und mehrschalige Aufbauten.",
+  "source": "Baustofftechnik · Schallschutz · Frage 51",
+  "sketch": false
+ },
+ {
+  "id": "bs052",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Erläutern Sie den Begriff bewertetes Schalldämm-Maß (Rw).",
+  "answer": "Das Schalldämm-Maß R beschreibt, wie stark ein Bauteil den Luftschall mindert. Es ist frequenzabhängig und wird in Dezibel angegeben, je höher der Wert, desto besser die Dämmung. Um die vielen Einzelwerte über die Frequenzen zu einer Kennzahl zusammenzufassen, wird das bewertete Schalldämm-Maß Rw gebildet, indem die gemessene Dämmkurve mit einer genormten Bezugskurve verglichen wird. Rw ist somit ein einzelner Dezibelwert, der die Luftschalldämmung eines Bauteils bei einem Standardspektrum kennzeichnet und Bauteile vergleichbar macht. Der Index w steht für gewichtet (bewertet). Rw ist üblicherweise ein im Labor ohne Nebenwege ermittelter Wert.",
+  "source": "Baustofftechnik · Schallschutz · Frage 52",
+  "sketch": false
+ },
+ {
+  "id": "bs053",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Welche Faktoren können den Schallschutz beeinflussen?",
+  "answer": "Die erreichbare Schalldämmung hängt von Bauteil und Einbau ab:\n- Masse des Bauteils: schwere, dichte Bauteile dämmen Luftschall besser (Massegesetz, je höher die flächenbezogene Masse, desto höher die Dämmung).\n- Schaliger Aufbau: zweischalige Konstruktionen mit Trennung und federnder Zwischenschicht dämmen besser als einschalige gleicher Masse.\n- Flankenübertragung: Schall läuft über angrenzende, durchgehende Bauteile (Wände, Decken) um das trennende Bauteil herum.\n- Fugen, Undichtigkeiten und Schallbrücken: schon kleine Löcher oder starre Verbindungen verschlechtern die Dämmung stark.\n- Verarbeitung und Anschlüsse, Steckdosen, Schlitze, Türen und Fenster als Schwachstellen.\n- Körperschallentkopplung, etwa durch schwimmenden Estrich und elastische Lager.",
+  "source": "Baustofftechnik · Schallschutz · Frage 53",
+  "sketch": false
+ },
+ {
+  "id": "bs054",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Was ist der Unterschied zwischen dem Schalldämm-Maß und dem Bau-Schalldämm-Maß? Wie wird dieser Unterschied dargestellt?",
+  "answer": "Das Schalldämm-Maß Rw beschreibt die reine Dämmwirkung eines Bauteils, gemessen im Prüfstand ohne Nebenwege, also nur der direkte Schalldurchgang durch das Bauteil. Das Bau-Schalldämm-Maß R'w ist der am fertigen Bau gemessene Wert. Er berücksichtigt zusätzlich die Schallübertragung über die flankierenden Bauteile (Flankenübertragung), also den Schall, der über angrenzende Wände und Decken um das trennende Bauteil herumläuft. Da diese Nebenwege die Dämmung verschlechtern, ist R'w in der Regel kleiner als Rw. Der Unterschied wird durch den Apostroph (Strich) am Formelzeichen dargestellt: R'w (gesprochen R-Strich-w) für den Bauwert gegenüber Rw für den Laborwert. Für Anforderungen aus dem Schallschutznachweis ist der Bauwert R'w maßgebend.",
+  "source": "Baustofftechnik · Schallschutz · Frage 54",
+  "sketch": false
+ },
+ {
+  "id": "bs055",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Welche Möglichkeiten der Schallübertragung kennen Sie?",
+  "answer": "Schall gelangt auf verschiedenen Wegen von einem Raum in den anderen:\n- Direkte Übertragung: Luftschall regt das trennende Bauteil an, das auf der anderen Seite wieder Schall abstrahlt.\n- Flankenübertragung: der Schall läuft über die angrenzenden, durchlaufenden Bauteile (Wände, Decken, Fassade) um das Trennbauteil herum.\n- Körperschallübertragung: Schwingungen werden über feste, starr verbundene Bauteile weitergeleitet und an anderer Stelle als Luftschall abgestrahlt, dazu zählt der Trittschall.\n- Übertragung über Undichtigkeiten und Leckagen: Fugen, offene Schlitze, Steckdosen, undichte Türen und Lüftungskanäle (Schalllängsleitung).\nFür den Schallschutz müssen alle Wege betrachtet werden, nicht nur das Trennbauteil selbst.",
+  "source": "Baustofftechnik · Schallschutz · Frage 55",
+  "sketch": false
+ },
+ {
+  "id": "bs056",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Wie können Sie eine Körperschallübertragung verhindern?",
+  "answer": "Körperschall wird am wirksamsten durch Entkopplung bekämpft, also durch das Unterbrechen starrer Verbindungen mit elastischen Zwischenschichten:\n- Schwimmender Estrich: der Estrich wird durch eine Trittschalldämmung von der Rohdecke und über Randdämmstreifen von den Wänden getrennt, sodass keine Schallbrücke entsteht.\n- Elastische Lagerung von Maschinen, Aufzügen und haustechnischen Anlagen auf Schwingungsdämpfern.\n- Körperschallentkoppelte Befestigung von Rohren und Sanitärobjekten (Schellen mit Gummieinlage, vorgewandte Installation).\n- Federnde Unterkonstruktionen und entkoppelte Vorsatzschalen bei Wänden und Decken.\n- Vermeidung von Schallbrücken: keine starren Durchdringungen der Trennschicht, sorgfältige Ausführung der Anschlüsse.",
+  "source": "Baustofftechnik · Schallschutz · Frage 56",
+  "sketch": false
+ },
+ {
+  "id": "bs057",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Erläutern Sie den Unterschied zwischen Schalldämm-Maß und Trittschallpegel.",
+  "answer": "Beide Kennwerte beschreiben unterschiedliche Schallphänomene und werden gegensätzlich gewertet:\n- Das Schalldämm-Maß (Rw bzw. R'w) bewertet die Luftschalldämmung eines Bauteils. Es gibt an, wie stark Luftschall gemindert wird, je höher der Wert in Dezibel, desto besser.\n- Der bewertete Norm-Trittschallpegel (L'n,w) bewertet den Trittschall, also den Körperschall, der durch Begehen einer Decke im darunterliegenden Raum als Luftschall ankommt. Hier gilt: je niedriger der Pegel in Dezibel, desto besser der Schutz, weil ein kleiner Pegel wenig durchgelassenen Schall bedeutet.\nVerbessert wird die Luftschalldämmung vor allem durch Masse, der Trittschallschutz vor allem durch Entkopplung wie schwimmenden Estrich.",
+  "source": "Baustofftechnik · Schallschutz · Frage 57",
+  "sketch": false
+ },
+ {
+  "id": "bs058",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Beschreiben Sie den Unterschied von Schallschutz und Raumakustik.",
+  "answer": "Schallschutz und Raumakustik verfolgen verschiedene Ziele:\n- Schallschutz (Bauakustik) schützt einen Raum vor Schall, der von außen oder aus Nachbarräumen eindringt. Es geht um die Dämmung von Luft-, Körper- und Trittschall zwischen den Räumen, also um Ruhe vor fremdem Lärm. Kennwerte sind das Bau-Schalldämm-Maß R'w und der Trittschallpegel.\n- Raumakustik betrifft das Schallgeschehen innerhalb eines Raumes, also wie sich der dort erzeugte Schall ausbreitet, reflektiert und abklingt. Ziel sind gute Hörsamkeit und Sprachverständlichkeit. Maßgebende Größe ist die Nachhallzeit.\nKurz gesagt: Schallschutz hält fremden Schall draußen, Raumakustik gestaltet den Klang im Raum selbst.",
+  "source": "Baustofftechnik · Schallschutz · Frage 58",
+  "sketch": false
+ },
+ {
+  "id": "bs059",
+  "path": "baustofftechnik",
+  "category": "Schallschutz",
+  "question": "Welche Probleme werden in der Raumakustik bewertet und welche Maßnahmen zur Verbesserung fallen Ihnen ein?",
+  "answer": "Die Raumakustik bewertet, wie gut man in einem Raum hört und versteht. Zentrale Größe ist die Nachhallzeit, die Zeit, in der ein Schallereignis um 60 Dezibel abklingt. Eine zu lange Nachhallzeit führt zu Halligkeit und schlechter Sprachverständlichkeit, eine zu kurze zu einem stumpfen, gedämpften Klang. Weitere Themen sind störende Reflexionen, Echos, Flatterechos zwischen parallelen Flächen und ein zu hoher Geräuschpegel. Maßnahmen zur Verbesserung:\n- Schallabsorbierende Flächen einsetzen, etwa Akustikdecken, poröse Absorber, Vorhänge, Teppiche, Möblierung.\n- Reflektierende und absorbierende Flächen gezielt verteilen, harte Parallelflächen vermeiden oder gliedern.\n- Die Nachhallzeit über Materialwahl und Raumgeometrie auf die Nutzung abstimmen (kurz für Sprache, länger für Musik).",
+  "source": "Baustofftechnik · Schallschutz · Frage 59",
+  "sketch": false
+ },
+ {
+  "id": "bs060",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Wozu dient der Brandschutz?",
+  "answer": "Brandschutz soll im Brandfall Leben und Sachwerte schützen und die Ausbreitung von Feuer begrenzen. Die zentralen Schutzziele sind:\n- Vorbeugung der Entstehung und Ausbreitung von Feuer und Rauch.\n- Sicherstellung der Rettung von Menschen und Tieren, vor allem über mindestens einen ausreichend langen Zeitraum sichere Flucht- und Rettungswege.\n- Ermöglichung wirksamer Löscharbeiten durch die Feuerwehr.\nDazu kommen der Schutz von Sachwerten und der Umwelt. Diese Schutzziele sind in den Bauordnungen (MBO, LBO) verankert und bestimmen die baulichen, anlagentechnischen und organisatorischen Anforderungen.",
+  "source": "Baustofftechnik · Brandschutz · Frage 60",
+  "sketch": false
+ },
+ {
+  "id": "bs061",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Wo stehen die wichtigsten Brandschutzanforderungen an ein Gebäude?",
+  "answer": "Die grundlegenden Brandschutzanforderungen stehen im öffentlichen Baurecht. Maßgebend sind die Landesbauordnungen (LBO) der einzelnen Bundesländer, die sich an der Musterbauordnung (MBO) orientieren. Sie regeln unter anderem Gebäudeklassen, Feuerwiderstand tragender und raumabschließender Bauteile, Brandabschnitte, Flucht- und Rettungswege sowie das Brandverhalten der Baustoffe. Für besondere Nutzungen, die Sonderbauten, gelten zusätzliche Sonderbauverordnungen und Richtlinien, etwa für Versammlungsstätten, Verkaufsstätten, Hochhäuser, Garagen oder Schulen. Konkretisiert werden die Anforderungen durch technische Baubestimmungen, einschlägige DIN-Normen und gegebenenfalls ein objektbezogenes Brandschutzkonzept.",
+  "source": "Baustofftechnik · Brandschutz · Frage 61",
+  "sketch": false
+ },
+ {
+  "id": "bs062",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Was ist der Unterschied zwischen vorbeugendem und abwehrendem Brandschutz?",
+  "answer": "Der Brandschutz gliedert sich in zwei Bereiche:\n- Vorbeugender Brandschutz: alle Maßnahmen, die vor einem Brand getroffen werden, um Entstehung und Ausbreitung zu verhindern und Rettung und Löschung zu ermöglichen. Dazu gehören der bauliche Brandschutz (Feuerwiderstand der Bauteile, Brandabschnitte, Rettungswege, Baustoffwahl), der anlagentechnische Brandschutz (Brandmelde- und Löschanlagen, Rauchabzug) und der organisatorische Brandschutz (Brandschutzordnung, Kennzeichnung, Übungen).\n- Abwehrender Brandschutz: alle Maßnahmen während und nach einem Brand, also das Bekämpfen des Feuers und die Rettung. Er wird im Wesentlichen von der Feuerwehr geleistet (Löschen, Retten, Bergen).\nDer vorbeugende Brandschutz ist Aufgabe der Planung und des Betreibers, der abwehrende Brandschutz vorrangig Aufgabe der Feuerwehr.",
+  "source": "Baustofftechnik · Brandschutz · Frage 62",
+  "sketch": false
+ },
+ {
+  "id": "bs063",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Welchen Einfluss hat die Gebäudeklasse auf die Brandschutzanforderungen eines Gebäudes und warum?",
+  "answer": "Die Bauordnungen teilen Gebäude in die Gebäudeklassen 1 bis 5 ein. Die Einstufung richtet sich vor allem nach der Höhe (Fußbodenhöhe des höchsten Aufenthaltsraums über Gelände) sowie nach Anzahl und Größe der Nutzungseinheiten. Vereinfacht reicht die Skala vom freistehenden kleinen Gebäude (Klasse 1) bis zur Gebäudeklasse 4 mit einer Fußbodenhöhe bis 13 Metern und Nutzungseinheiten von je höchstens 400 m². Die Gebäudeklasse 5 umfasst die sonstigen Gebäude einschließlich unterirdischer Gebäude, also Gebäude oberhalb der Klasse 4 (Fußbodenhöhe über 13 Meter bis 22 Meter sowie Gebäude mit größeren Nutzungseinheiten). Oberhalb von 22 Metern Fußbodenhöhe beginnt der Hochhausbereich mit eigenen Anforderungen. Mit steigender Gebäudeklasse wachsen die Anforderungen an den Feuerwiderstand der Bauteile und an die Rettungswege. Der Grund ist das mit Höhe und Belegung steigende Risiko: mehr Menschen sind betroffen, die Rettung über Leitern der Feuerwehr wird schwieriger und die Selbstrettung dauert länger. Höhere Klassen verlangen daher zum Beispiel feuerbeständige statt nur feuerhemmender tragender Bauteile.",
+  "source": "Baustofftechnik · Brandschutz · Frage 63",
+  "sketch": false
+ },
+ {
+  "id": "bs064",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Erläutern Sie den Begriff Sonderbauten und die Implikationen für den Brandschutz.",
+  "answer": "Sonderbauten sind Gebäude und Anlagen besonderer Art oder Nutzung, von denen wegen Größe, Höhe, Personenzahl oder Nutzungsart erhöhte Gefahren ausgehen und für die die Regelanforderungen der Bauordnung nicht ausreichen. Beispiele sind Versammlungsstätten, Verkaufsstätten, Hochhäuser, Krankenhäuser, Schulen, Garagen, Industriebauten und Beherbergungsbetriebe. Für sie gelten zusätzliche oder strengere Anforderungen, geregelt in Sonderbauverordnungen und Richtlinien sowie in einem individuell erstellten Brandschutzkonzept. Die Implikationen für den Brandschutz sind unter anderem zusätzliche oder breitere Rettungswege, anlagentechnischer Brandschutz wie Brandmelde-, Sprinkler- und Rauchabzugsanlagen, eine begrenzte Personenzahl sowie organisatorische Maßnahmen. Grund ist die hohe Zahl gefährdeter, teils ortsunkundiger oder hilfsbedürftiger Personen.",
+  "source": "Baustofftechnik · Brandschutz · Frage 64",
+  "sketch": false
+ },
+ {
+  "id": "bs065",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Beschreiben Sie das Brandverhalten von Baustoffen.",
+  "answer": "Das Brandverhalten beschreibt, wie ein Baustoff zum Brand beiträgt, ob und wie er entflammt und brennt. Baustoffe werden danach in Baustoffklassen eingeteilt. Nach der älteren DIN 4102 unterscheidet man Klasse A (nicht brennbar, mit A1 und A2) und Klasse B (brennbar, mit B1 schwer entflammbar, B2 normal entflammbar, B3 leicht entflammbar). Nach der europäischen DIN EN 13501-1 gibt es die Euroklassen A1, A2, B, C, D, E und F, wobei A1 nicht brennbar und F nicht klassifiziert beziehungsweise leicht entflammbar bedeutet. Ergänzend werden die Rauchentwicklung (s1 bis s3) und das brennende Abtropfen (d0 bis d2) bewertet. Nicht brennbar sind etwa Beton, Stein, Mauerwerk, Glas und Stahl, brennbar sind Holz und die meisten Kunststoffe.",
+  "source": "Baustofftechnik · Brandschutz · Frage 65",
+  "sketch": false
+ },
+ {
+  "id": "bs066",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Welche Bedeutung hat die Feuerwiderstandsklasse?",
+  "answer": "Die Feuerwiderstandsklasse gibt an, wie lange ein Bauteil im Normbrandversuch seine Funktion behält, angegeben als Zeit in Minuten. Nach DIN 4102 lauten die Klassen F30, F60, F90, F120 und F180, wobei die Zahl die Mindestdauer in Minuten ist (zum Beispiel hält ein F90-Bauteil mindestens 90 Minuten). Im Unterschied zum Brandverhalten der einzelnen Baustoffe bewertet die Feuerwiderstandsklasse das gesamte Bauteil, etwa Wand, Decke, Stütze oder Tür. Nach europäischer Klassifizierung (DIN EN 13501-2) wird zusätzlich nach Kriterien unterschieden: R für Tragfähigkeit, E für Raumabschluss und I für Wärmedämmung, zum Beispiel REI 90. Die Klasse ist entscheidend, weil sie sicherstellt, dass tragende und raumabschließende Bauteile über die für Rettung und Löschung nötige Zeit standhalten und die Brandausbreitung begrenzen.",
+  "source": "Baustofftechnik · Brandschutz · Frage 66",
+  "sketch": false
+ },
+ {
+  "id": "bs067",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Welcher Baustoff hat die besseren Brandschutzeigenschaften, Holz oder Stahl?",
+  "answer": "Die Antwort hängt vom betrachteten Kriterium ab und ist nicht eindeutig. Beim Brandverhalten ist Stahl überlegen, denn Stahl ist nicht brennbar (Baustoffklasse A), Holz ist brennbar (Klasse B) und trägt zur Brandlast bei. Beim Feuerwiderstand des tragenden Bauteils zeigt sich jedoch das Gegenteil: Stahl verliert ab etwa 500 Grad Celsius rasch seine Festigkeit und damit seine Tragfähigkeit, ungeschützte Stahlbauteile können unangekündigt versagen und müssen daher meist durch Bekleidung, Beschichtung oder Ummantelung geschützt werden. Holz brennt dagegen mit einem berechenbaren, gleichmäßigen Abbrand, dabei bildet die Holzkohleschicht außen eine isolierende Schutzschicht, sodass der innere Querschnitt lange tragfähig bleibt. Ein ausreichend dimensioniertes Holzbauteil behält seine Tragfähigkeit kalkulierbar über die geforderte Zeit. Fazit: nicht brennbar ist Stahl, aber im Tragverhalten unter Feuer verhält sich Holz oft günstiger.",
+  "source": "Baustofftechnik · Brandschutz · Frage 67",
+  "sketch": false
+ },
+ {
+  "id": "bs068",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Was ist der Unterschied zwischen feuerhemmend und feuerbeständig?",
+  "answer": "Die Begriffe beschreiben die Anforderung an die Feuerwiderstandsdauer von Bauteilen:\n- Feuerhemmend bedeutet eine Feuerwiderstandsdauer von mindestens 30 Minuten, das entspricht der Klasse F30.\n- Feuerbeständig bedeutet eine Feuerwiderstandsdauer von mindestens 90 Minuten, das entspricht der Klasse F90.\nEin feuerbeständiges Bauteil hält dem Feuer also dreimal so lange stand wie ein feuerhemmendes. Welche Anforderung gilt, hängt von der Gebäudeklasse und der Funktion des Bauteils ab: in höheren Gebäudeklassen werden für tragende und aussteifende Bauteile feuerbeständige Ausführungen verlangt, in niedrigeren genügen feuerhemmende.",
+  "source": "Baustofftechnik · Brandschutz · Frage 68",
+  "sketch": false
+ },
+ {
+  "id": "bs069",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Was sagt Ihnen der Begriff hochfeuerhemmend?",
+  "answer": "Hochfeuerhemmend bezeichnet eine Feuerwiderstandsdauer von mindestens 60 Minuten und liegt damit zwischen feuerhemmend (F30, 30 Minuten) und feuerbeständig (F90, 90 Minuten), es entspricht der Klasse F60. Die Anforderung wurde vor allem für den mehrgeschossigen Holzbau in der Gebäudeklasse 4 eingeführt. Charakteristisch ist, dass tragende und aussteifende Bauteile aus brennbaren Baustoffen wie Holz zulässig sind, wenn sie allseitig durch eine nichtbrennbare, ausreichend dimensionierte Bekleidung (Kapselung, oft Gipsbauplatten) so geschützt sind, dass über die geforderte Zeit eine Entzündung des tragenden Kerns verhindert wird. Hochfeuerhemmend ermöglicht so den Holzbau auch in höheren Gebäudeklassen unter erhöhten brandschutztechnischen Anforderungen.",
+  "source": "Baustofftechnik · Brandschutz · Frage 69",
+  "sketch": false
+ },
+ {
+  "id": "bs070",
+  "path": "baustofftechnik",
+  "category": "Brandschutz",
+  "question": "Welche Brandschutzmaßnahmen kennen Sie?",
+  "answer": "Brandschutzmaßnahmen lassen sich nach den drei Bereichen des vorbeugenden Brandschutzes ordnen:\n- Baulicher Brandschutz: Bauteile mit ausreichendem Feuerwiderstand (F30 bis F90), Unterteilung in Brandabschnitte durch Brandwände, feuerwiderstandsfähige Türen und Abschottungen von Durchbrüchen, Wahl nichtbrennbarer Baustoffe sowie sichere Flucht- und Rettungswege (Treppenräume, zweiter Rettungsweg).\n- Anlagentechnischer Brandschutz: Brandmelde- und Alarmanlagen, automatische Löschanlagen wie Sprinkler, Rauch- und Wärmeabzugsanlagen, Sicherheitsbeleuchtung, Steigleitungen und Feuerlöscher.\n- Organisatorischer Brandschutz: Brandschutzordnung, Kennzeichnung der Rettungswege, Feuerwehrpläne, Unterweisungen, Räumungsübungen und das Freihalten von Flucht- und Rettungswegen.\nErgänzend wirkt der abwehrende Brandschutz durch die Feuerwehr und die Sicherstellung der Zugänglichkeit und Löschwasserversorgung.",
+  "source": "Baustofftechnik · Brandschutz · Frage 70",
+  "sketch": false
+ },
+ {
   "id": "gl001",
   "path": "gebaeudelehre",
   "category": "Einführung",
